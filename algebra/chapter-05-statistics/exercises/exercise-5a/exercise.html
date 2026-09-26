@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ଅନୁଶୀଳନୀ - 5 (a) · ପରିସଂଖ୍ୟାନ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+<header class="topbar">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <ol>
+<li class="crumb-class"><span>Class 10</span></li>      <li class="crumb-subject"><a href="../../../index.html">Algebra</a></li>
+      <li class="crumb-chapter">
+  <details class="crumb-menu">
+    <summary aria-label="ପରିସଂଖ୍ୟାନ: sections"><span class="crumb-text">5. ପରିସଂଖ୍ୟାନ</span><span class="caret" aria-hidden="true">▾</span></summary>
+    <nav class="menu" aria-label="ପରିସଂଖ୍ୟାନ">
+      <a class="menu-top" href="../../content.html#top">5. ପରିସଂଖ୍ୟାନ · Statistics</a>
+      <hr>
+      <ol>
+        <li class="lvl-2" data-anchor="s-5-1-p83"><a href="../../content.html#s-5-1-p83">5.1 ଉପକ୍ରମଣିକା</a></li>
+        <li class="lvl-2" data-anchor="s-5-2-p83"><a href="../../content.html#s-5-2-p83">5.2 କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା</a></li>
+        <li class="lvl-3" data-anchor="s-5-2-1-p84"><a href="../../content.html#s-5-2-1-p84">5.2.1 ମାଧ୍ୟମାନ</a></li>
+        <li class="lvl-3" data-anchor="s-a-saankhyyik-tthyyaablliir-maadhyymaan-nirnnnnyy-p84"><a href="../../content.html#s-a-saankhyyik-tthyyaablliir-maadhyymaan-nirnnnnyy-p84">(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-b-baarmbaartaa-bitrnnre-prkaashit-tthyyaabllii-p85"><a href="../../content.html#s-b-baarmbaartaa-bitrnnre-prkaashit-tthyyaabllii-p85">(b) ବାରମ୍ବାରତା ବିତରଣରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-snkssipt-prnnaallii-short-cut-method-baa-p86"><a href="../../content.html#s-snkssipt-prnnaallii-short-cut-method-baa-p86">ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ବା ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ</a></li>
+        <li class="lvl-3" data-anchor="s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p87"><a href="../../content.html#s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p87">(C) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-seaapaan-bidyyuti-prnnaallii-step-deviati-p88"><a href="../../content.html#s-seaapaan-bidyyuti-prnnaallii-step-deviati-p88">ସୋପାନ - ବିଦ୍ୟୁତି ପ୍ରଣାଳୀ</a></li>
+        <li class="lvl-3" data-anchor="s-maadhyymaan-smbndhiiyy-ketek-upaadeyy-tthyy-so-p90"><a href="../../content.html#s-maadhyymaan-smbndhiiyy-ketek-upaadeyy-tthyy-so-p90">ମାଧ୍ୟମାନ ସମ୍ବନ୍ଧୀୟ କେତେକ ଉପାଦେୟ ତଥ୍ୟ</a></li>
+        <li class="exercise current"><a href="../exercise-5a/exercise.html">ଅନୁଶୀଳନୀ - 5 (a)</a></li>
+        <li class="result"><a href="../../exercises-result/exercise-5a/result.html">ସମାଧାନ</a></li>
+        <li class="lvl-3" data-anchor="s-5-2-2-p95"><a href="../../content.html#s-5-2-2-p95">5.2.2 ମଧ୍ୟମା</a></li>
+        <li class="lvl-3" data-anchor="s-a-saankhyyik-tthyyaablliir-mdhyymaa-nirnnnnyy-p96"><a href="../../content.html#s-a-saankhyyik-tthyyaablliir-mdhyymaa-nirnnnnyy-p96">(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-b-baarmbaartaa-bitrnn-saarnniire-prkaashit-tth-p96"><a href="../../content.html#s-b-baarmbaartaa-bitrnn-saarnniire-prkaashit-tth-p96">(b) ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ :-</a></li>
+        <li class="lvl-3" data-anchor="s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p98"><a href="../../content.html#s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p98">(c) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-d-raashikrt-baarmbaartaa-suuck-lekh-ojaaibh-p100"><a href="../../content.html#s-d-raashikrt-baarmbaartaa-suuck-lekh-ojaaibh-p100">(d) ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ ଓଜାଇଭ ସାହାଯ୍ୟରେ ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="exercise"><a href="../exercise-5b/exercise.html">ଅନୁଶୀଳନୀ - 5 (b)</a></li>
+        <li class="result"><a href="../../exercises-result/exercise-5b/result.html">ସମାଧାନ</a></li>
+        <li class="lvl-3" data-anchor="s-5-2-3-p104"><a href="../../content.html#s-5-2-3-p104">5.2.3 ଗରିଷ୍ଠକ</a></li>
+        <li class="exercise"><a href="../exercise-5c/exercise.html">ଅନୁଶୀଳନୀ 5 (c)</a></li>
+        <li class="result"><a href="../../exercises-result/exercise-5c/result.html">ସମାଧାନ</a></li>
+        <li class="quickref" data-anchor="quick-ref"><a href="../../content.html#quick-ref">⚡ ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା</a></li>
+      </ol>
+    </nav>
+  </details>
+</li>
+      <li aria-current="page"><span>ଅନୁଶୀଳନୀ - 5 (a)</span></li>
+    </ol>
+<a class="quickref-link" href="../../content.html#quick-ref" title="ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା (Quick reference guide)"><span aria-hidden="true">⚡</span><span class="quickref-text">ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା</span><span class="quickref-en">(Quick reference guide)</span></a>  </nav>
+</header>
+<main>
+<header class="chapter-head chapter-band">
+  <p class="ordinal"><span class="chip chip-ex">5. ପରିସଂଖ୍ୟାନ</span></p>
+  <h1 class="chapter-title">ଅନୁଶୀଳନୀ - 5 (a)</h1>
+  <p class="meta">Statistics · 16 questions · PDF pages 91–95</p>
+<a class="result-link" href="../../exercises-result/exercise-5a/result.html">ସମାଧାନ ଦେଖ <span class="en">(worked solutions)</span> →</a></header>
+
+<ol class="questions">
+  <li value="1">
+    <p>କ - ବିଭାଗ</p>
+<p>ନିମ୍ନ ଉକ୍ତିମାନଙ୍କ ମଧ୍ୟରୁ ଯେଉଁଟି ଠିକ୍ ତା’ ପାଖରେ T ଓ ଯେଉଁଟି ଭୁଲ୍ ତା’ ପାଖରେ F ଲେଖ ।</p>
+
+    <ul class="subs">
+<li><span class="sub-label">(i)</span><div><p>ଦୁଇଟି କ୍ରମିକ ଅଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ ସେ ଦ୍ୱୟ ମଧ୍ୟବର୍ତ୍ତୀ ଯୁଗ୍ମସଂଖ୍ୟା ସଙ୍ଗେ ସମାନ ।</p>
+</div></li><li><span class="sub-label">(ii)</span><div><p>ଏକ ସମାନ୍ତର ପ୍ରଗତିରେ ଥିବା ତିନୋଟି କ୍ରମିକ ପଦର ମାଧ୍ୟମାନ ସେମାନଙ୍କର ମଧ୍ୟମପଦ ସଙ୍ଗେ ସମାନ ।</p>
+</div></li><li><span class="sub-label">(iii)</span><div><p>ଗୋଟିଏ ତଥ୍ୟାବଳୀର ହାରାହାରି ନିର୍ଣ୍ଣୟକୁ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ କୁହାଯାଏ ।</p>
+</div></li><li><span class="sub-label">(iv)</span><div><p>ଭିନ୍ନ ଭିନ୍ନ ଆରମ୍ଭ ବିନ୍ଦୁ ନେଇ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କଲେ ଭିନ୍ନ ଭିନ୍ନ ଉତ୍ତର ମିଳିବ ।</p>
+</div></li><li><span class="sub-label">(v)</span><div><p>କୌଣସି ତଥ୍ୟାବଳୀର ଆରମ୍ଭ ବିନ୍ଦୁ 20 ହେଲେ ଅନ୍ତର୍ଭୁକ୍ତ ଲବ୍ଧାଙ୍କ 15 ର ବିଚ୍ୟୁତି 5  ।</p>
+</div></li><li><span class="sub-label">(vi)</span><div><p>ପ୍ରଥମ n ସଂଖ୍ୟକ ଗଣନ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ $\frac{n + 1}{2}$  ।</p>
+</div></li><li><span class="sub-label">(vii)</span><div><p>ପ୍ରଥମ n ସଂଖ୍ୟକ ଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ 2n+2 ।</p>
+</div></li><li><span class="sub-label">(viii)</span><div><p>ପ୍ରଥମ ଦଶଗୋଟି ଅଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ  10 ।</p>
+</div></li><li><span class="sub-label">(ix)</span><div><p>15 ଗୋଟି ସଂଖ୍ୟାର ମାଧ୍ୟମାନ 17 । ପ୍ରତ୍ୟେକ ସଂଖ୍ୟାକୁ 2 ଦ୍ୱାରା ଗୁଣି ସେମାନଙ୍କର ମାଧ୍ୟମାନ ସ୍ଥିର କଲେ ମାଧ୍ୟମାନ 8.5 ହେବ ।</p>
+</div></li><li><span class="sub-label">(x)</span><div><p>ପ୍ରଥମ 20ଟି ଯୁଗ୍ମ ଗଣନସଂଖ୍ୟାର ମାଧ୍ୟମାନ, ପ୍ରଥମ 20 ଟି ଗଣନସଂଖ୍ୟାର ମାଧ୍ୟମାନର ଦୁଇଗୁଣ ।</p>
+</div></li>    </ul>
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>1. T - (i) (ii) (iii) (vi)(viii);</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-1">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="2">
+    <p>ପ୍ରତ୍ୟେକ ପ୍ରଶ୍ନ ପାଇଁ ପ୍ରଦତ୍ତ ସମ୍ଭାବ୍ୟ ଉତ୍ତର ମାନଙ୍କ ମଧ୍ୟରୁ ଠିକ୍ ଉତ୍ତରଟି ବାଛ ।</p>
+
+    <ul class="subs">
+<li><span class="sub-label">(i)</span><div><p>61, 62, 68, 56, 64, 72, 69, 51, 71, 67, 70, 55, 63 ଏହି ଲବ୍ଧାଙ୍କ ମାନଙ୍କର ମାଧ୍ୟମାନ ନିରୂପଣ ଲାଗି ନିମ୍ନସ୍ଥ ସଂଖ୍ୟାମାନଙ୍କ ମଧ୍ୟରୁ କେଉଁଟି ଉପଯୁକ୍ତ ଆରମ୍ଭ ବିନ୍ଦୁ ହେବ  ?<br>(A) 55 (B) 60 (C) 70 (D) 72</p>
+</div></li><li><span class="sub-label">(ii)</span><div><p>ପ୍ରଥମ 20 ଟି ଗଣନ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ  ?<br>(A) 10 (B) 10½ (C) $\frac{21}{20}$ (D) 210</p>
+</div></li><li><span class="sub-label">(iii)</span><div><p>ପ୍ରଥମ ‘n’ ସଂଖ୍ୟକ ସଂପ୍ରସାରିତ ସ୍ୱାଭାବିକ ସଂଖ୍ୟା (Whole number) ର ମାଧ୍ୟମାନ କେତେ  ?<br>(A) $\frac{n - 1}{2}$ (B) $\frac{n}{2}$ (C) $\frac{n + 1}{2}$ (D) n</p>
+</div></li><li><span class="sub-label">(iv)</span><div><p>ପ୍ରଥମ ‘n’ ସଂଖ୍ୟକ ଧନାତ୍ମକ ଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ  ?<br>(A) (n - 1) (B) n (C) n + 1 (D) n + 2</p>
+</div></li><li><span class="sub-label">(v)</span><div><p>ପ୍ରଥମ n ସଂଖ୍ୟକ ଧନାତ୍ମକ ଅଯୁଗ୍ମ ସଂଖ୍ୟାର ମାଧ୍ୟମାନ କେତେ  ?<br>(A) (n - 11) (B) n (C) n + 1 (D) n + 2</p>
+</div></li><li><span class="sub-label">(vi)</span><div><p>‘M’ ମାଧ୍ୟମାନ ବିଶିଷ୍ଟ 10 ଟି ଲବ୍ଧାଙ୍କ ମଧ୍ୟରୁ ପ୍ରତ୍ୟେକକୁ 2 ବଢ଼ାଇଲେ ନୂତନ ଲବ୍ଧାଙ୍କ 10 ଟିର ମାଧ୍ୟମାନ କେତେ ହେବ  ?<br>(A) m (B) 2m (C) $m^2$ (D) m + 2</p>
+</div></li><li><span class="sub-label">(vii)</span><div><p>‘M’ ମାଧ୍ୟମାନ ବିଶିଷ୍ଟ n ସଂଖ୍ୟକ ଲବ୍ଧାଙ୍କମାନଙ୍କ ମଧ୍ୟରୁ ପ୍ରତ୍ୟେକକୁ 4 ଗୁଣ କରିଦେଲେ ନୂତନ ଲବ୍ଧାଙ୍କମାନଙ୍କର ମାଧ୍ୟମାନ କେତେ ହେବ  ?<br>(A) $\frac{M}{4}$ (B) M (C) 4M (D) $\frac{4}{M}$</p>
+</div></li><li><span class="sub-label">(viii)</span><div><p>‘M’ ମାଧ୍ୟମାନ ବିଶିଷ୍ଟ n ସଂଖ୍ୟକ ଲବ୍ଧାଙ୍କମାନଙ୍କ ମଧ୍ୟରୁ ପ୍ରତ୍ୟେକରୁ x ବିୟୋଗ କଲେ ନୂତନ ଲବ୍ଧାଙ୍କମାନଙ୍କର ମାଧ୍ୟମାନ କେତେ ହେବ  ?<br>(A) M (B) (M + x) (C) Mx (D) (M - x)</p>
+</div></li><li><span class="sub-label">(ix)</span><div><p>‘M’ ମାଧ୍ୟମାନ ବିଶିଷ୍ଟ n ସଂଖ୍ୟକ ଲବ୍ଧାଙ୍କମାନଙ୍କ ମଧ୍ୟରୁ ପ୍ରତ୍ୟେକକୁ 5 ଦ୍ୱାରା ଭାଗ କଲେ ନୂତନ ଲବ୍ଧାଙ୍କମାନଙ୍କର ମାଧ୍ୟମାନ କେତେ ହେବ  ?<br>(A) M (B) $\frac{M}{5}$ (C) 5M (D) M - 5</p>
+</div></li><li><span class="sub-label">(x)</span><div><p>ଯଦି a ସଂଖ୍ୟକ ବାଳକମାନଙ୍କର ମାଧ୍ୟମାନ ବୟସ 12 ବର୍ଷ ଓ b ସଂଖ୍ୟକ ବାଳିକାଙ୍କର ମାଧ୍ୟମାନ ବୟସ 10 ବର୍ଷ ହୁଏ, ତେବେ ଉପରୋକ୍ତ ସମସ୍ତ ବାଳକ ବାଳିକାଙ୍କର ମାଧ୍ୟମାନ ବୟସ କେତେ ବର୍ଷ ହେବ  ?<br>(A) $\frac{10a + 12b}{a + b}$ (B) $\frac{12a + 10b}{a + b}$ (C) $\frac{10a + 12b}{10 + 12}$ (D) $\frac{12a + 10b}{10 + 12}$</p>
+</div></li><li><span class="sub-label">(xi)</span><div><p>998.9, 999.1, 1000.3, 1000.6,  1000.1 ର ମାଧ୍ୟମାନ କେତେ  ?<br>(A) 998 (B) 999 (C) 1000 (D) 1001</p>
+</div></li><li><span class="sub-label">(xii)</span><div><p>6, 8, 5, 7, x ଏବଂ 4 ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ 7 ହେଲେ x ର ମାନ କେତେ ହେବ  ?<br>(A) 10 (B) 11 (C) 12 (D) 13</p>
+</div></li><li><span class="sub-label">(xiii)</span><div><p>$x_1, x_2, x_3, x_4, x_5, x_6$ ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ M ହେଲେ $\sum_{i=1}^{6}(x_i - M)$ ର ମାନ କେତେ ହେବ  ?<br>(A) 0 (B) 6 (C) 36 (D) -6</p>
+</div></li><li><span class="sub-label">(xiv)</span><div><p>x, x + 2, x + 4, x + 6, x + 8 ର ମାଧ୍ୟମାନ କେତେ  ?<br>(A) x + 2 (B) x + 4 (C) x + 6 (D) x</p>
+</div></li><li><span class="sub-label">(xv)</span><div><p>18 ର ସମସ୍ତ ଗୁଣନୀୟକ ମାନଙ୍କର ମାଧ୍ୟମାନ କେତେ  ?<br>(A) 5 (B) 6 (C) 6.5 (D) 7</p>
+</div></li>    </ul>
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>2. (i) (B) 60, (ii) (B) $10\frac{1}{2}$ (iii) (A) $\frac{n - 1}{2}$ (iv) (c) n +1) (v) (B) n, (vi) (D) m + 2 (vii) (C) 4m (viii) (D) (M – x) (ix) (B) $\frac{M}{5}$ (x) (B) $\frac{12a + 10b}{a + b}$ (xi) (C) 1000 (xii) (C) 12 (xiii) (A) 0 (xiv) (B) x + 4 (xv) (C) 6.5</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-2">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="3">
+    <p>ଖ - ବିଭାଗ</p>
+<p>ଦଶଥର ଖେଳି ଜଣେ କ୍ରିକେଟ୍ ଖେଳାଳୀ ସଂଗ୍ରହ କରିଥିବା ରନ୍ ଗୁଡ଼ିକ ହେଲା - 47, 41, 50, 39, 45, 48, 42, 32, 60 ଏବଂ 20 । ତାଙ୍କ ଦ୍ୱାରା ସଂଗୃହୀତ ରନ୍‌ର ମାଧ୍ୟମାନ ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀରେ (ଉପଯୁକ୍ତ ଆରମ୍ଭ ବିନ୍ଦୁ ନେଇ) ନିର୍ଣ୍ଣୟ କର ।</p>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>3. 42.4,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-3">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="4">
+    <p>କିଲୋଗ୍ରାମ ଓଜନରେ 30 ଜଣ ପିଲାଙ୍କର ଓଜନ ହେଲା 21, 30, 40, 25, 26, 22, 26, 31, 22, 36, 30, 25, 25, 33, 30, 25, 27, 27, 25,31, 33, 22, 21, 36, 40, 31, 33, 30, 37, 36  । ଏହି ତଥ୍ୟାବଳୀକୁ ବାରମ୍ବାରତା ବଣ୍ଟନରେ ସଜ୍ଜିତ କରି ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କର  ।</p>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>4. 29.2,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-4">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="5">
+    <p>କିଛି ରାସାୟନିକ ପଦାର୍ଥର  ଓଜନ 30 ଥର ନିଆଯାଇ ଫଳାଫଳକୁ ନିମ୍ନ ସାରଣୀରେ ସଜାଯାଇଛି । ମାଧ୍ୟମାନ ଓଜନ ନିର୍ଣ୍ଣୟ କର ।</p>
+<div class="table-wrap"><table><tr><td>ଓଜନ (ଗ୍ରାମ୍‌ରେ) :</td><td>3.8</td><td>3.9</td><td>4.0</td><td>4.1</td><td>4.2</td><td>4.3</td><td>4.4</td><td>4.5</td><td>4.6</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>1</td><td>1</td><td>6</td><td>6</td><td>7</td><td>5</td><td>2</td><td>1</td><td>1</td></tr></table></div>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>5. 4.17 gm ,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-5">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="6">
+    <p>ଏକ ଶ୍ରେଣୀରେ 30 ଜଣ ଛାତ୍ରଙ୍କର ହାରାହାରି ବୟସ 12 ବର୍ଷ । ଶ୍ରେଣୀ ଶିକ୍ଷକଙ୍କ ସହିତ ସେମାନଙ୍କର ହାରାହାରି ବୟସ 13 ବର୍ଷ ହେଲେ, ଶ୍ରେଣୀ ଶିକ୍ଷକଙ୍କ ବୟସ ନିର୍ଣ୍ଣୟ କର ।</p>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>6. 30,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-6">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="7">
+    <p>$x_1, x_2, x_3 \ldots\ldots$ ପ୍ରଭୃତି n ସଂଖ୍ୟକ ଲବ୍ଧାଙ୍କର ମାଧ୍ୟମାନ m । ଯଦି ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କରେ (a + b) ଯୋଗ କରାଯାଏ ଦର୍ଶାଅ ଯେ ନୂତନ ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ (m – a + b) ହେବ ।</p>
+
+    <div class="q-links">
+<a href="../../exercises-result/exercise-5a/result.html#q-7">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="8">
+    <p>ଗ - ବିଭାଗ</p>
+<p>ଏକ ବଗିଚାରେ ଥିବା ଗଛ ମାନଙ୍କର ଉଚ୍ଚତା ନିମ୍ନ ସାରଣୀରେ ଦିଆଯାଇଛି । ଗଛଗୁଡ଼ିକର ମାଧ୍ୟମାନ ଉଚ୍ଚତା (ସେ.ମି.)ରେ ନିର୍ଣ୍ଣୟ କର</p>
+<div class="table-wrap"><table><tr><td>ଉଚ୍ଚତା (ସେ.ମି.)ରେ :</td><td>70 - 65</td><td>65 - 60</td><td>60 - 55</td><td>55 - 50</td><td>50 - 45</td><td>45 - 40</td><td>40 - 35</td><td>35 - 30</td><td>30 - 25</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>4</td><td>7</td><td>8</td><td>10</td><td>5</td><td>6</td><td>3</td><td>7</td><td>2</td></tr></table></div>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>8. 49.6;</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-8">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="9">
+    <p>ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀରେ, ନିମ୍ନ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିରୂପଣ କର ।</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ :</td><td>84 - 90</td><td>90 - 96</td><td>96 - 102</td><td>102 - 108</td><td>108 - 114</td><td>114 - 120</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>8</td><td>10</td><td>16</td><td>23</td><td>12</td><td>11</td></tr></table></div>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>9. 103.5,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-9">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="10">
+    <p>ନିମ୍ନ ଭାଗ - ବିଭକ୍ତ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ସୋପାନ - ବିଚ୍ୟୁତି ପ୍ରଣାଳୀରେ ସ୍ଥିର କର ।</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ :</td><td>0 - 4</td><td>4 - 8</td><td>8 - 12</td><td>12 - 16</td><td>16 - 20</td><td>20 - 24</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>5</td><td>7</td><td>10</td><td>15</td><td>9</td><td>4</td></tr></table></div>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>10. 12.24,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-10">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="11">
+    <p>ନିମ୍ନ ସାରଣୀରେ ଅର୍ନ୍ତଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ଉଭୟ ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ଓ ସୋପାନ - ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ ଅବଲମ୍ବନରେ ସ୍ଥିର କର ।</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ :</td><td>0 - 50</td><td>50 - 100</td><td>100 - 150</td><td>150 - 200</td><td>200 - 250</td><td>250 - 300</td></tr><tr><td>ବାରମ୍ବାରତା:</td><td>4</td><td>10</td><td>12</td><td>10</td><td>8</td><td>8</td></tr></table></div>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>11. 151, 10. 43,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-11">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="12">
+    <p>ସୋପାନ ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ ନିମ୍ନ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ, ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ସ୍ଥିର କର ।</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ :</td><td>20 - 30</td><td>30 - 40</td><td>40 - 50</td><td>50 - 60</td><td>60 - 70</td><td>70 - 80</td></tr><tr><td>ବାରମ୍ବାରତା:</td><td>10</td><td>6</td><td>8</td><td>12</td><td>5</td><td>9</td></tr></table></div>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>12. 49.6,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-12">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="13">
+    
+    <ul class="subs">
+<li><span class="sub-label">(i)</span><div><p>ନିମ୍ନ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ 7.5 ହେଲେ ‘ f ’ ର ମୂଲ୍ୟ ନିରୂପଣ କର ।</p>
+<div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ :</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>20</td><td>17</td><td>f</td><td>10</td><td>8</td><td>6</td><td>7</td><td>6</td></tr></table></div>
+</div></li><li><span class="sub-label">(ii)</span><div><p>ନିମ୍ନ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ 6 ହେଲେ ‘ p ’ ର ମୂଲ୍ୟ ନିରୂପଣ କର ।</p>
+<div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ :</td><td>3</td><td>6</td><td>7</td><td>4</td><td>P+3</td><td>8</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>5</td><td>2</td><td>3</td><td>2</td><td>4</td><td>6</td></tr></table></div>
+</div></li>    </ul>
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>13(i). 16,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-13">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="14">
+    <p>ନିମ୍ନ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ 50 ଏବଂ ବାରମ୍ବାରତା ଗୁଡ଼ିକର ସମଷ୍ଟି 120 ହେଲେ $f_1$ ଓ $f_2$ ନିର୍ଣ୍ଣୟ କର ।</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ :</td><td>0 - 20</td><td>20 - 40</td><td>40 - 60</td><td>60 - 80</td><td>80 - 100</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>17</td><td>$f_1$</td><td>32</td><td>$f_2$</td><td>190</td></tr></table></div>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>14. $f_1 = 28$, $f_2 = 24$,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-14">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="15">
+    <p>ସୋପାନ-ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ ଅବଲମ୍ବନରେ ନିମ୍ନ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ସ୍ଥିର କର ।</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ :</td><td>10 - 19</td><td>20 - 29</td><td>30 - 39</td><td>40 - 49</td><td>50 - 59</td><td>60 - 69</td><td>70 - 79</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>5</td><td>65</td><td>222</td><td>112</td><td>53</td><td>40</td><td>3</td></tr></table></div>
+<aside class="note">ସୂଚନା : ଏଠାରେ ଦତ୍ତ ସଂଭାଗୀକରଣ ଅନ୍ତର୍ଭୁକ୍ତ (inclusive) ଅଟେ । ଏଠାରେ ଉକ୍ତ ସଂଭାଗୀକରଣକୁ ବର୍ହିଭୁକ୍ତ (exclusive) ସଂଭାଗୀକରଣରେ ପରିବର୍ତ୍ତନ କରି ମାଧ୍ୟମାନ ନିରୂପଣ କରାଯାଇପାରେ । କାରଣ ଏଠାରେ ସଂଭାଗଗୁଡ଼ିକର ବିସ୍ତାରରେ କୌଣସି ପରିବର୍ତ୍ତନ ଘଟିବାର ସମ୍ଭାବନା ନ ଥାଏ ।</aside>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>15. 40,</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-15">ସମାଧାନ →</a>    </div>
+  </li>
+  <li value="16">
+    <p>$x_1, x_2, x_3 \ldots\ldots$ ପ୍ରଭୃତି n ସଂଖ୍ୟକ ଲବ୍ଧାଙ୍କର ମାଧ୍ୟମାନ M । ଯଦି $\sum_{i=1}^{n}(x_i - 5) = 60$ ଏବଂ $\sum_{i=1}^{n}(x_i - 8) = 24$ ହୁଏ ତେବେ ‘n’ ଓ M ସ୍ଥିର କର ।</p>
+
+    <div class="q-links">
+<details class="answer"><summary>ଉତ୍ତର (book answer)</summary><p>16. n = 12, m = 10</p>
+</details><a href="../../exercises-result/exercise-5a/result.html#q-16">ସମାଧାନ →</a>    </div>
+  </li>
+</ol>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script>
+// Chapter menu: close on outside click, Escape or picking an item; mark the current section.
+(function () {
+  var menu = document.querySelector(".crumb-menu");
+  if (!menu) return;
+  document.addEventListener("click", function (e) {
+    if (menu.open && !menu.contains(e.target)) menu.open = false;
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && menu.open) { menu.open = false; menu.querySelector("summary").focus(); }
+  });
+  menu.querySelectorAll(".menu a").forEach(function (a) {
+    a.addEventListener("click", function () { menu.open = false; });
+  });
+  menu.addEventListener("toggle", function () {
+    if (!menu.open) return;
+    var sec = document.querySelector(".crumb-section:not([hidden]) a");
+    var id = sec ? sec.getAttribute("href").slice(1) : null;
+    var current = null;
+    menu.querySelectorAll("li[data-anchor]").forEach(function (li) {
+      var on = li.dataset.anchor === id;
+      li.classList.toggle("current", on);
+      if (on) current = li;
+    });
+    if (current) current.scrollIntoView({ block: "nearest" });
+  });
+})();
+// Last breadcrumb follows the section heading currently at the top of the page.
+(function () {
+  var crumb = document.querySelector(".crumb-section");
+  if (!crumb) return;
+  var heads = Array.prototype.slice.call(document.querySelectorAll("main h2.h-sec, main h3.h-sec"));
+  var bar = document.querySelector(".topbar");
+  var ticking = false;
+  function update() {
+    ticking = false;
+    var limit = bar.offsetHeight + 24, current = null;
+    for (var i = 0; i < heads.length; i++) {
+      if (heads[i].getBoundingClientRect().top <= limit) current = heads[i]; else break;
+    }
+    if (current) {
+      crumb.querySelector("a").textContent = current.dataset.short || current.textContent;
+      crumb.querySelector("a").href = "#" + current.id;
+      crumb.hidden = false;
+    } else {
+      crumb.hidden = true;
+    }
+  }
+  window.addEventListener("scroll", function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }, { passive: true });
+  update();
+})();
+window.addEventListener("load", function () {
+  if (!window.katex) return;
+  document.querySelectorAll(".math[data-tex]").forEach(function (el) {
+    katex.render(el.dataset.tex, el, { displayMode: true, throwOnError: false });
+  });
+  renderMathInElement(document.body, {
+    delimiters: [{ left: "$", right: "$", display: false }],
+    ignoredClasses: ["math"],
+    throwOnError: false
+  });
+});
+</script>
+</body>
+</html>

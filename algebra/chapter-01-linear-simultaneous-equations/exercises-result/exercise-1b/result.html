@@ -37,6 +37,7 @@
         <li class="lvl-2" data-anchor="s-1-7-p24"><a href="../../content.html#s-1-7-p24">1.7 ପାଟିଗଣିତ ପ୍ରଶ୍ନର ସମାଧାନରେ ପ୍ରୟୋଗ</a></li>
         <li class="exercise"><a href="../../exercises/exercise-1c/exercise.html">ଅନୁଶୀଳନୀ – 1 (c)</a></li>
         <li class="result"><a href="../exercise-1c/result.html">ସମାଧାନ</a></li>
+        <li class="quickref" data-anchor="quick-ref"><a href="../../content.html#quick-ref">⚡ ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା</a></li>
       </ol>
     </nav>
   </details>
@@ -44,7 +45,7 @@
       <li><a href="../../exercises/exercise-1b/exercise.html">ଅନୁଶୀଳନୀ – 1 (b)</a></li>
       <li aria-current="page"><span>ସମାଧାନ</span></li>
     </ol>
-  </nav>
+<a class="quickref-link" href="../../content.html#quick-ref" title="ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା (Quick reference guide)"><span aria-hidden="true">⚡</span><span class="quickref-text">ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା</span><span class="quickref-en">(Quick reference guide)</span></a>  </nav>
 </header>
 <main>
 <header class="chapter-head chapter-band">
@@ -1070,7 +1071,7 @@
 (function () {
   var crumb = document.querySelector(".crumb-section");
   if (!crumb) return;
-  var heads = Array.prototype.slice.call(document.querySelectorAll("main h2, main h3"));
+  var heads = Array.prototype.slice.call(document.querySelectorAll("main h2.h-sec, main h3.h-sec"));
   var bar = document.querySelector(".topbar");
   var ticking = false;
   function update() {

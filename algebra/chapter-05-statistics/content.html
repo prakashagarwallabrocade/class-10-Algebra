@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="or">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ପରିସଂଖ୍ୟାନ · Algebra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wght@400;600;700&family=Noto+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="topbar">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <ol>
+<li class="crumb-class"><span>Class 10</span></li>      <li class="crumb-subject"><a href="../index.html">Algebra</a></li>
+      <li class="crumb-chapter" aria-current="page">
+  <details class="crumb-menu">
+    <summary aria-label="ପରିସଂଖ୍ୟାନ: sections"><span class="crumb-text">5. ପରିସଂଖ୍ୟାନ</span><span class="caret" aria-hidden="true">▾</span></summary>
+    <nav class="menu" aria-label="ପରିସଂଖ୍ୟାନ">
+      <a class="menu-top" href="#top">5. ପରିସଂଖ୍ୟାନ · Statistics</a>
+      <hr>
+      <ol>
+        <li class="lvl-2" data-anchor="s-5-1-p83"><a href="#s-5-1-p83">5.1 ଉପକ୍ରମଣିକା</a></li>
+        <li class="lvl-2" data-anchor="s-5-2-p83"><a href="#s-5-2-p83">5.2 କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା</a></li>
+        <li class="lvl-3" data-anchor="s-5-2-1-p84"><a href="#s-5-2-1-p84">5.2.1 ମାଧ୍ୟମାନ</a></li>
+        <li class="lvl-3" data-anchor="s-a-saankhyyik-tthyyaablliir-maadhyymaan-nirnnnnyy-p84"><a href="#s-a-saankhyyik-tthyyaablliir-maadhyymaan-nirnnnnyy-p84">(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-b-baarmbaartaa-bitrnnre-prkaashit-tthyyaabllii-p85"><a href="#s-b-baarmbaartaa-bitrnnre-prkaashit-tthyyaabllii-p85">(b) ବାରମ୍ବାରତା ବିତରଣରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-snkssipt-prnnaallii-short-cut-method-baa-p86"><a href="#s-snkssipt-prnnaallii-short-cut-method-baa-p86">ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ବା ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ</a></li>
+        <li class="lvl-3" data-anchor="s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p87"><a href="#s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p87">(C) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-seaapaan-bidyyuti-prnnaallii-step-deviati-p88"><a href="#s-seaapaan-bidyyuti-prnnaallii-step-deviati-p88">ସୋପାନ - ବିଦ୍ୟୁତି ପ୍ରଣାଳୀ</a></li>
+        <li class="lvl-3" data-anchor="s-maadhyymaan-smbndhiiyy-ketek-upaadeyy-tthyy-so-p90"><a href="#s-maadhyymaan-smbndhiiyy-ketek-upaadeyy-tthyy-so-p90">ମାଧ୍ୟମାନ ସମ୍ବନ୍ଧୀୟ କେତେକ ଉପାଦେୟ ତଥ୍ୟ</a></li>
+        <li class="exercise"><a href="exercises/exercise-5a/exercise.html">ଅନୁଶୀଳନୀ - 5 (a)</a></li>
+        <li class="result"><a href="exercises-result/exercise-5a/result.html">ସମାଧାନ</a></li>
+        <li class="lvl-3" data-anchor="s-5-2-2-p95"><a href="#s-5-2-2-p95">5.2.2 ମଧ୍ୟମା</a></li>
+        <li class="lvl-3" data-anchor="s-a-saankhyyik-tthyyaablliir-mdhyymaa-nirnnnnyy-p96"><a href="#s-a-saankhyyik-tthyyaablliir-mdhyymaa-nirnnnnyy-p96">(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-b-baarmbaartaa-bitrnn-saarnniire-prkaashit-tth-p96"><a href="#s-b-baarmbaartaa-bitrnn-saarnniire-prkaashit-tth-p96">(b) ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ :-</a></li>
+        <li class="lvl-3" data-anchor="s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p98"><a href="#s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p98">(c) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="lvl-3" data-anchor="s-d-raashikrt-baarmbaartaa-suuck-lekh-ojaaibh-p100"><a href="#s-d-raashikrt-baarmbaartaa-suuck-lekh-ojaaibh-p100">(d) ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ ଓଜାଇଭ ସାହାଯ୍ୟରେ ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</a></li>
+        <li class="exercise"><a href="exercises/exercise-5b/exercise.html">ଅନୁଶୀଳନୀ - 5 (b)</a></li>
+        <li class="result"><a href="exercises-result/exercise-5b/result.html">ସମାଧାନ</a></li>
+        <li class="lvl-3" data-anchor="s-5-2-3-p104"><a href="#s-5-2-3-p104">5.2.3 ଗରିଷ୍ଠକ</a></li>
+        <li class="exercise"><a href="exercises/exercise-5c/exercise.html">ଅନୁଶୀଳନୀ 5 (c)</a></li>
+        <li class="result"><a href="exercises-result/exercise-5c/result.html">ସମାଧାନ</a></li>
+        <li class="quickref" data-anchor="quick-ref"><a href="#quick-ref">⚡ ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା</a></li>
+      </ol>
+    </nav>
+  </details>
+</li>
+      <li class="crumb-section" hidden><a href="#"></a></li>
+    </ol>
+<a class="quickref-link" href="#quick-ref" title="ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା (Quick reference guide)"><span aria-hidden="true">⚡</span><span class="quickref-text">ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା</span><span class="quickref-en">(Quick reference guide)</span></a>  </nav>
+</header>
+<main>
+<header class="chapter-head chapter-band" id="top">
+<p class="ordinal"><span class="chip">ପଞ୍ଚମ ଅଧ୍ୟାୟ</span></p>  <h1 class="chapter-title">ପରିସଂଖ୍ୟାନ</h1>
+<p class="gloss">Statistics</p>  <p class="meta">Pages 77–100 · 3 exercises</p>
+</header>
+<h2 class="h-sec" id="s-5-1-p83" data-short="5.1 ଉପକ୍ରମଣିକା"><span class="h-num">5.1</span><span class="h-main">ଉପକ୍ରମଣିକା</span><span class="h-gloss">Introduction</span></h2>
+<p>ନବମ ଶ୍ରେଣୀରେ ତୁମେମାନେ ପରିସଂଖ୍ୟାନର ଐତିହାସିକ ପୃଷ୍ଠଭୂମି, ସଂଜ୍ଞା, ତଥ୍ୟ, ଯଥା- ସାଂଖ୍ୟିକ ତଥ୍ୟ (Numerical data), ପ୍ରାଥମିକ ତଥ୍ୟ (Primary data) , ପରୋକ୍ଷ ତଥ୍ୟ (Secondary data) ଇତ୍ୟାଦି ସମ୍ବନ୍ଧରେ ଅବଗତ ଅଛ । ସଂଗୃହୀତ ତଥ୍ୟର ଉପସ୍ଥାପନା, ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀ (Frequency distribution table) ମାଧ୍ୟମରେ କରିଥିଲ ଏବଂ ତତ୍ ସହିତ ଟାଲି ଚିହ୍ନ ଦ୍ୱାରା ଲବ୍ଧାଙ୍କଗୁଡ଼ିକର ବାରମ୍ବାରତା ନିରୂପଣ କରି ରାଶିକୃତ ବାରମ୍ବାରତା ମଧ୍ୟ ନିର୍ଣ୍ଣୟ କରିଥିଲ । ବାରମ୍ବାରତା ନିର୍ଦ୍ଦେଶକ ରେଖାଚିତ୍ର (Frequency polygon), ହିଷ୍ଟୋଗ୍ରାମ (Histogram), ବୃତ୍ତଲେଖ (Pie-chart) ଓ ଛବିଲେଖ (Pictograph) ପ୍ରଭୃତି ଲୈଖିକ ପରିପ୍ରକାଶ ମାଧ୍ୟମରେ ତଥ୍ୟାବଳୀର ସଫଳ ଉପସ୍ଥାପନା କିପରି ହୁଏ ତାହା ତୁମେ ଜାଣିଛ । ଏ ସମସ୍ତ ଆଲୋଚନାକୁ ଭିତ୍ତିକରି ଏକାଧିକ ସାଂଖ୍ୟିକ ତଥ୍ୟର ଏକକ ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବା ସଂଖ୍ୟା ଅର୍ଥାତ୍ କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା ସମ୍ବନ୍ଧରେ ଆଲୋଚନା କରିବା ଏ ଅଧ୍ୟାୟର ମୁଖ୍ୟ ଉଦ୍ଦେଶ୍ୟ ।</p>
+<h2 class="h-sec" id="s-5-2-p83" data-short="5.2 କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା"><span class="h-num">5.2</span><span class="h-main">କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା</span><span class="h-gloss">Central Tendency</span></h2>
+<p>ଆଜିକାର ବିଭିନ୍ନ ପତ୍ରପତ୍ରିକାରୁ ବିଭିନ୍ନ ବିଷୟ ସମ୍ବଳିତ ଆମେ ବହୁତ ତଥ୍ୟ ସମ୍ବନ୍ଧରେ ଅବଗତ ଥାଉ, ଯେଉଁ ତଥ୍ୟଗୁଡ଼ିକରୁ ବିଭିନ୍ନ ବିଷୟ ସମ୍ବନ୍ଧରେ ସ୍ପଷ୍ଟ ସୂଚନା ମିଳିଥାଏ । ଏକାଧିକ ସାଂଖ୍ୟିକ ତଥ୍ୟ ଦତ୍ତ ଥିଲେ ସେଗୁଡ଼ିକୁ ପ୍ରତିନିଧିତ୍ୱ କଲା ଭଳି ଗୋଟିଏ ସଂଖ୍ୟା ଦ୍ୱାରା ପ୍ରକାଶ କରିବାର ଆବଶ୍ୟକତା ଥାଏ । ନିମ୍ନ ଉଦାହରଣକୁ ଦେଖ । ଦୁଇଜଣ ପରୀକ୍ଷାର୍ଥୀଙ୍କର ପାଞ୍ଚଟି ବିଷୟରେ ଥିବା ପରୀକ୍ଷା ନମ୍ବର ନିମ୍ନରେ ଦିଆଯାଇଛି ।</p>
+<div class="table-wrap"><table><tr><td></td><td>ସାହିତ୍ୟ</td><td>ଇଂରାଜୀ</td><td>ବିଜ୍ଞାନ</td><td>ଗଣିତ</td><td>ସାମାଜିକ ପାଠ</td></tr><tr><td>ଲିଜା</td><td>70</td><td>60</td><td>78</td><td>90</td><td>87</td></tr><tr><td>ପୂଜା</td><td>78</td><td>68</td><td>75</td><td>87</td><td>86</td></tr></table></div>
+<p>ସାରଣୀକୁ ଅନୁଧ୍ୟାନ କଲେ ଜଣାଯାଏ, ଲିଜା ତିନୋଟି ବିଷୟରେ ପୂଜା ଅପେକ୍ଷା ଭଲ କରିଛି । ପୂଜା ଦୁଇଟି ବିଷୟରେ ଲିଜା ଅପେକ୍ଷା ଭଲ କରିଛି । ଗୋଟିଏ ବିଷୟରେ ଲିଜା ଓ ପୂଜା ଉଭୟଙ୍କର ଫଳାଫଳ ପ୍ରାୟ ପାଖାପାଖି ।</p>
+<p>ତେଣୁ ଦୁଇଜଣ ପରୀକ୍ଷାର୍ଥୀଙ୍କର ପରୀକ୍ଷା ଫଳକୁ ତୁଳନା କରି ଏକ ନିର୍ଦ୍ଦିଷ୍ଟ ସିଦ୍ଧାନ୍ତରେ ଉପନୀତ ହେବା ସହଜ ନୁହେଁ;  କାରଣ ପ୍ରତ୍ୟେକଙ୍କର ପରୀକ୍ଷାଫଳ ପାଞ୍ଚଟି ସଂଖ୍ୟାରେ ପ୍ରକାଶିତ । ଯଦି ଏହି ପାଞ୍ଚଟି ସଂଖ୍ୟା ବିଶିଷ୍ଟ ଫଳାଫଳକୁ ଗୋଟିଏ ସଂଖ୍ୟାରେ ପ୍ରକାଶ କରିପାରିବା, ତେବେ ପରୀକ୍ଷାଫଳ ତୁଳନା ସହଜସାଧ୍ୟ ତଥା ସିଦ୍ଧାନ୍ତମୂଳକ ହେବ । ଏକାଧିକ ସଂଖ୍ୟା ସମ୍ବନ୍ଧିତ ତଥ୍ୟକୁ ଗୋଟିଏ ସଂଖ୍ୟାରେ ପ୍ରକାଶ କରିବା ଲାଗି ତଥ୍ୟ ଅନ୍ତର୍ଭୁକ୍ତ ସମସ୍ତ ସଂଖ୍ୟାର ପ୍ରତିନିଧିତ୍ୱ କଲା ଭଳି ଗୋଟିଏ ସଂଖ୍ୟା ନିର୍ଣ୍ଣୟ କରାଯାଏ ଓ ଏହି ପ୍ରତିନିଧିତ୍ୱ ସଂଖ୍ୟାକୁ ତଥ୍ୟାବଳୀର କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା କୁହାଯାଏ । ପରୀକ୍ଷାର୍ଥୀଙ୍କର ପରୀକ୍ଷାଫଳ ତୁଳନା କରିବା ଲାଗି ଆମେ ପ୍ରତ୍ୟେକର ପାଞ୍ଚଟି ବିଷୟର ହାରାହାରି (Mean ବା Average) ନମ୍ବର ନିର୍ଣ୍ଣୟ କରିଥାଉ ।</p>
+<div class="math" data-tex="\text{ଲିଜାର ହାରାହରି ନମ୍ବର} = \frac{\text{ମୋଟ ନମ୍ବର}}{\text{ବିଷୟ ସଂଖ୍ୟା}} = \frac{385}{5} = 77.0">\text{ଲିଜାର ହାରାହରି ନମ୍ବର} = \frac{\text{ମୋଟ ନମ୍ବର}}{\text{ବିଷୟ ସଂଖ୍ୟା}} = \frac{385}{5} = 77.0</div>
+<div class="math" data-tex="\text{ପୂଜାର ହାରାହାରି ନମ୍ବର} = \frac{\text{ମୋଟ ନମ୍ବର}}{\text{ବିଷୟ ସଂଖ୍ୟା}} = \frac{386}{5} = 77.2">\text{ପୂଜାର ହାରାହାରି ନମ୍ବର} = \frac{\text{ମୋଟ ନମ୍ବର}}{\text{ବିଷୟ ସଂଖ୍ୟା}} = \frac{386}{5} = 77.2</div>
+<p>ବର୍ତ୍ତମାନ ପ୍ରତ୍ୟେକ ପରୀକ୍ଷାର୍ଥୀଙ୍କର ପରୀକ୍ଷାଫଳ ପାଞ୍ଚଟି ସଂଖ୍ୟା ସମ୍ବଳିତ ନ ହୋଇ ଗୋଟିଏ ସଂଖ୍ୟାରେ ପ୍ରକାଶିତ ହେଲା । ଫଳରେ ଉଭୟଙ୍କ ମଧ୍ୟରେ କାହାର ପରୀକ୍ଷାଫଳ ଅପେକ୍ଷାକୃତ ଭଲ ଏକଥା ଜାଣିବାରେ ଆଉ ଅସୁବିଧା ରହିଲା ନାହିଁ । ମନେରଖ ହାରାହାରି ନିର୍ଣ୍ଣୟ ପ୍ରକ୍ରିୟାରେ ଏକାଧିକ ସାଂଖ୍ୟିକ ତଥ୍ୟ ମଧ୍ୟରୁ ପ୍ରତିନିଧିତ୍ୱ କଲାଭଳି ଗୋଟିଏ ସଂଖ୍ୟା ନିର୍ଣ୍ଣୟ କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା ନିର୍ଣ୍ଣୟର ଗୋଟିଏ ପ୍ରଣାଳୀ । କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତାକୁ ସୂଚାଇବାପାଇଁ ତିନି ପ୍ରକାରର ମାପ ଅଛି । ସେଗୁଡ଼ିକ ହେଲା - (i) ମାଧ୍ୟମାନ (Mean), (ii) ମଧ୍ୟମା (Median) ଏବଂ (iii) ଗରିଷ୍ଠକ (Mode)</p>
+<p>ମାଧ୍ୟମାନ : ଗୋଟିଏ ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀ ଅନ୍ତର୍ଗତ ସମସ୍ତ ଲବ୍ଧାଙ୍କର ହାରାହାରି ମାପକୁ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ (Mean) କୁହାଯାଏ ।</p>
+<p>ମଧ୍ୟମା : ବଡ଼ରୁ ସାନ ବା ସାନରୁ ବଡ଼ କ୍ରମରେ ସଜାଯାଇଥିବା ସମସ୍ତ ଲବ୍ଧାଙ୍କର ମଧ୍ୟମ ଲବଧାଙ୍କକୁ ମଧ୍ୟମା (Median) କୁହାଯାଏ ।</p>
+<p>ଗରିଷ୍ଠକ : କୌଣସି ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀରେ ଥିବା ସର୍ବାଧିକ ବାରମ୍ବାରତା ବିଶିଷ୍ଟ ଲବ୍ଧାଙ୍କକୁ ଉକ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ (Mode) କୁହାଯାଏ ।</p>
+<h3 class="h-sec" id="s-5-2-1-p84" data-short="5.2.1 ମାଧ୍ୟମାନ"><span class="h-num">5.2.1</span><span class="h-main">ମାଧ୍ୟମାନ</span><span class="h-gloss">Mean</span></h3>
+<h3 class="h-sec" id="s-a-saankhyyik-tthyyaablliir-maadhyymaan-nirnnnnyy-p84" data-short="(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ"><span class="h-main">(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</span><span class="h-gloss">Mean of the Individual Series</span></h3>
+<p>ବାରମ୍ବାରତା ବିହୀନ ଲବ୍ଧାଙ୍କଗୁଡ଼ିକର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କରିବାକୁ ହେବ । କୌଣସି ତଥ୍ୟାବଳୀର ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକ $x_1, x_2, x_3 \ldots\ldots x_n$ ହେଲେ ଉକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ M ନିମ୍ନ ସୂତ୍ରଦ୍ୱାରା ନିରୂପଣ କରାଯାଏ ।</p>
+<div class="math" data-tex="M = \frac{x_1 + x_2 + x_3 \ldots\ldots + x_n}{n} = \frac{1}{n}\sum_{k=1}^{k=n} x_k">M = \frac{x_1 + x_2 + x_3 \ldots\ldots + x_n}{n} = \frac{1}{n}\sum_{k=1}^{k=n} x_k</div>
+<p>ଏଠାରେ M ମାଧ୍ୟମାନ, Σ (ସିଗ୍‌ମା) : ସମଷ୍ଟିର ସଙ୍କେତ, x ତଥ୍ୟାବଳୀ ଅନ୍ତର୍ଗତ ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କ</p>
+<p>$\sum_{k=1}^{k=n} x_k$ : $x_1$ ଠାରୁ $x_n$ ପର୍ଯ୍ୟନ୍ତ ଲବ୍ଧାଙ୍କ ମାନଙ୍କର ସମଷ୍ଟି ଯେଉଁଠାରେ n : ତଥ୍ୟାବଳୀ ଅନ୍ତର୍ଗତ ଲବ୍ଧାଙ୍କମାନଙ୍କର ସଂଖ୍ୟା</p>
+<div class="math" data-tex="\text{ସଂକ୍ଷେପରେ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ} = \frac{\text{ତଥ୍ୟାବଳୀ ଅନ୍ତର୍ଗତ ଲବ୍ଧାଙ୍କମାନଙ୍କର ସମଷ୍ଟି}}{\text{ଲବ୍ଧାଙ୍କମାନଙ୍କର ସଂଖ୍ୟା}}">\text{ସଂକ୍ଷେପରେ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ} = \frac{\text{ତଥ୍ୟାବଳୀ ଅନ୍ତର୍ଗତ ଲବ୍ଧାଙ୍କମାନଙ୍କର ସମଷ୍ଟି}}{\text{ଲବ୍ଧାଙ୍କମାନଙ୍କର ସଂଖ୍ୟା}}</div>
+<div class="math" data-tex="\text{ଅର୍ଥାତ୍} \qquad M = \frac{\Sigma x}{n}">\text{ଅର୍ଥାତ୍} \qquad M = \frac{\Sigma x}{n}</div>
+<section class="example"><h4>ଉଦାହରଣ - 1 : ଜଣେ ପରୀକ୍ଷାର୍ଥୀଙ୍କର ଛଅଟି ବିଷୟରେ ଶତକଡ଼ା ନମ୍ବର ଗୁଡ଼ିକ ହେଲା 65, 67, 85, 78, 69, 78  । ଏହି ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କର ।</h4><p class="solution">ସମାଧାନ : $M = \frac{\sum x}{n}$</p>
+<p>(ଯେଉଁଠାରେ $\Sigma x$ = ତଥ୍ୟାବଳୀ ଅନ୍ତର୍ଗତ ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ସମଷ୍ଟି ଏବଂ n = ଲବ୍ଧାଙ୍କମାନଙ୍କର ସଂଖ୍ୟା)</p>
+<div class="math" data-tex="= \frac{1}{6}(65 + 67 + 85 + 78 + 69 + 78) \\ = \frac{1}{6} \times 442 = 73.66 \ldots\ldots = 73.67">= \frac{1}{6}(65 + 67 + 85 + 78 + 69 + 78) \\ = \frac{1}{6} \times 442 = 73.66 \ldots\ldots = 73.67</div>
+</section>
+<h3 class="h-sec" id="s-b-baarmbaartaa-bitrnnre-prkaashit-tthyyaabllii-p85" data-short="(b) ବାରମ୍ବାରତା ବିତରଣରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ"><span class="h-main">(b) ବାରମ୍ବାରତା ବିତରଣରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</span><span class="h-gloss">Mean of a frequency distribution</span></h3>
+<p>ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟର ଦୁଇଟି ଉଦାହରଣ ନିମ୍ନରେ ଦିଆଯାଇଛି ।</p>
+<section class="example"><h4>ଉଦାହରଣ -2: ବାରଜଣ ପିଲାଙ୍କର ଉଚ୍ଚତା ନିମ୍ନସ୍ଥ ସାରଣୀରେ ଦିଆଯାଇଛି । ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କର ।</h4><p>ସାରଣୀ - A</p>
+<div class="table-wrap"><table><tr><td>ଉଚ୍ଚତା (ସେ.ମି. ରେ) x :</td><td>69</td><td>70</td><td>71</td><td>72</td><td>73</td></tr><tr><td>ବାରମ୍ବାରତା f :</td><td>4</td><td>2</td><td>3</td><td>2</td><td>1</td></tr></table></div>
+<p class="solution">ସମାଧାନ :-</p>
+<p>ସାରଣୀ - $A_1$</p>
+<div class="table-wrap"><table><tr><td>ଉଚ୍ଚତା (ସେ.ମି.ରେ)(x)</td><td>ବାରମ୍ବାରତା (f)</td><td>ବାରମ୍ବାରତା × ଉଚ୍ଚତା (fx)</td></tr><tr><td>69</td><td>4</td><td>276</td></tr><tr><td>70</td><td>2</td><td>140</td></tr><tr><td>71</td><td>3</td><td>213</td></tr><tr><td>72</td><td>2</td><td>144</td></tr><tr><td>73</td><td>1</td><td>73</td></tr><tr><td></td><td>$\Sigma f = 12$</td><td>$\Sigma fx = 846$</td></tr></table></div>
+<div class="math" data-tex="\text{ମାଧ୍ୟମାନ } M = \frac{\Sigma fx}{\Sigma f} = \frac{846}{12} = 70.5 \text{ ସେ.ମି. (ଉତ୍ତର)}">\text{ମାଧ୍ୟମାନ } M = \frac{\Sigma fx}{\Sigma f} = \frac{846}{12} = 70.5 \text{ ସେ.ମି. (ଉତ୍ତର)}</div>
+</section>
+<h3 class="h-sec" id="s-snkssipt-prnnaallii-short-cut-method-baa-p86" data-short="ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ବା ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ"><span class="h-main">ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ବା ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ</span><span class="h-gloss">Short-cut Method</span></h3>
+<p>ପୂର୍ବ ଦର୍ଶିତ ପ୍ରଣାଳୀରେ କେତେ ଗୁଡ଼ିଏ ବଡ଼ ବଡ଼ ସଂଖ୍ୟାର ଗୁଣନ ତଥା ଯୋଗର ଆବଶ୍ୟକତା ପଡ଼ିଥାଏ । ଏହି ଅସୁବିଧା ଦୂର କରିବା ଲାଗି ଅନ୍ୟ ଏକ ପ୍ରଣାଳୀ ଅବଲମ୍ବନ କରାଯାଏ ଓ ଏହି ପ୍ରଣାଳୀ ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ବା ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ ନାମରେ ଅଭିହିତ । ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ସମ୍ବନ୍ଧୀୟ ମୌଳିକ ଧାରଣା ନିମ୍ନସ୍ଥ ଉଦାହରଣରେ ଆଲୋଚିତ ହୋଇଛି, ଲକ୍ଷ୍ୟ କର ।</p>
+<div class="math" data-tex="93, 98, 112, 103, 97, 109 \text{ ର ମାଧ୍ୟମାନ} = \frac{1}{6}(93 + 98 + 112 + 103 + 97 + 109) \\ = \frac{1}{6}\{(100 - 7) + (100 - 2) + (100 + 12) + (100 + 3) + (100 - 3) + (100 + 9)\} \\ = \frac{1}{6}[6 \times 100 + \{(-7) + (-2) + 12 + 3 + (-3) + 9\}] \\ = \frac{1}{6} \times 6 \times 100 + \frac{1}{6} \times 12 = 100 + \frac{12}{6}">93, 98, 112, 103, 97, 109 \text{ ର ମାଧ୍ୟମାନ} = \frac{1}{6}(93 + 98 + 112 + 103 + 97 + 109) \\ = \frac{1}{6}\{(100 - 7) + (100 - 2) + (100 + 12) + (100 + 3) + (100 - 3) + (100 + 9)\} \\ = \frac{1}{6}[6 \times 100 + \{(-7) + (-2) + 12 + 3 + (-3) + 9\}] \\ = \frac{1}{6} \times 6 \times 100 + \frac{1}{6} \times 12 = 100 + \frac{12}{6}</div>
+<p>ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କ 100 ଠାରୁ କେତେ ବେଶି ବା କେତେ କମ୍ ଏହି ରୂପେ ପ୍ରକାଶ କରାଯାଇଛି । ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କରୁ 100 ବିୟୋଗ କଲେ ଯେଉଁ ବିୟୋଗଫଳ ମିଳେ, ତାକୁ ସଂପୃକ୍ତ ଲବ୍ଧାଙ୍କର ବିଚ୍ୟୁତି (Deviation) କୁହାଯାଏ ଏବଂ ଏହି ସ୍ଥଳେ 100 କୁ ଆରମ୍ଭ ବିନ୍ଦୁ (Working zero) ବୋଲି କୁହାଯାଏ । ଉପରିସ୍ଥ ଲବ୍ଧାଙ୍କ ମାନଙ୍କର ବିଚ୍ୟୁତି (x) ଯଥାକ୍ରମେ -7, -2, 12, 3, -3, 9 ।</p>
+<div class="math" data-tex="\text{ଏହି ବିଚ୍ୟୁତି ମାନଙ୍କର ସମଷ୍ଟି} = (-7) + (-2) + 12 + 3 + (-3) + 9 = 12">\text{ଏହି ବିଚ୍ୟୁତି ମାନଙ୍କର ସମଷ୍ଟି} = (-7) + (-2) + 12 + 3 + (-3) + 9 = 12</div>
+<div class="math" data-tex="\therefore \text{ ଆମେ ଦେଖିଲେ ଯେ, ଦତ୍ତ ଲବ୍ଧାଙ୍କର ମାଧ୍ୟମାନ } (M) = 100 + \frac{12}{6}">\therefore \text{ ଆମେ ଦେଖିଲେ ଯେ, ଦତ୍ତ ଲବ୍ଧାଙ୍କର ମାଧ୍ୟମାନ } (M) = 100 + \frac{12}{6}</div>
+<div class="math" data-tex="\text{ଅର୍ଥାତ୍ } M = \text{ଆରମ୍ଭ ବିନ୍ଦୁ} + \frac{\text{ବିଦ୍ୟୁତି ମାନଙ୍କର ସମଷ୍ଟି}}{\text{ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା}}">\text{ଅର୍ଥାତ୍ } M = \text{ଆରମ୍ଭ ବିନ୍ଦୁ} + \frac{\text{ବିଦ୍ୟୁତି ମାନଙ୍କର ସମଷ୍ଟି}}{\text{ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା}}</div>
+<aside class="note">ଦ୍ରଷ୍ଟବ୍ୟ :- 100 ପରିବର୍ତ୍ତେ ଯେ କୌଣସି ଆରମ୍ଭ ବିନ୍ଦୁ ନେଇ ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କଲେ ଉତ୍ତରରେ କୌଣସି ପରିବର୍ତ୍ତନ ହେବ ନାହିଁ । ଆରମ୍ଭ ବିନ୍ଦୁ ଓ ବିଚ୍ୟୁତି ସାହାଯ୍ୟରେ ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ ପ୍ରଣାଳୀକୁ ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ କୁହାଯାଏ । ପରବର୍ତ୍ତୀ ଉଦାହରଣକୁ ଲକ୍ଷ୍ୟକର ।</aside>
+<section class="example"><h4>ଉଦାହରଣ - 3 : ଉପଯୁକ୍ତ ଆରମ୍ଭ ବିନ୍ଦୁ ନେଇ ସାରଣୀ A  ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କର ।</h4><p class="solution">ସମାଧାନ :</p>
+<p>ସାରଣୀ $A_2$</p>
+<div class="table-wrap"><table><tr><td>ଉଚ୍ଚତା (ସେ.ମି.) (x)</td><td>ବାରମ୍ବାରତା (f)</td><td>ବିଚ୍ୟୁତି (y) ଆରମ୍ଭ ବିନ୍ଦୁ : 70</td><td>ବାରମ୍ବାରତା × ବିଚ୍ୟୁତି (fy)</td></tr><tr><td>69</td><td>4</td><td>-1</td><td>-4</td></tr><tr><td>70</td><td>2</td><td>0</td><td>0</td></tr><tr><td>71</td><td>3</td><td>1</td><td>3</td></tr><tr><td>72</td><td>2</td><td>2</td><td>4</td></tr><tr><td>73</td><td>1</td><td>3</td><td>3</td></tr><tr><td></td><td>$\Sigma f = 12$</td><td></td><td>$\Sigma fy = 6$</td></tr></table></div>
+<div class="math" data-tex="\text{ମାଧ୍ୟମାନ } M = \text{ଆରମ୍ଭ ବିନ୍ଦୁ} + \frac{\Sigma fy}{\Sigma f} = 70 + \frac{6}{12} = 70 + 0.5 = 70.5 \quad \text{(ଉତ୍ତର)}">\text{ମାଧ୍ୟମାନ } M = \text{ଆରମ୍ଭ ବିନ୍ଦୁ} + \frac{\Sigma fy}{\Sigma f} = 70 + \frac{6}{12} = 70 + 0.5 = 70.5 \quad \text{(ଉତ୍ତର)}</div>
+</section>
+<h3 class="h-sec" id="s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p87" data-short="(C) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ"><span class="h-main">(C) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ</span><span class="h-gloss">Mean of a Grouped frequency distribution</span></h3>
+<p>ଏଠାରେ ପ୍ରତ୍ୟେକ ସଂଭାଗର ମଧ୍ୟବିନ୍ଦୁ (y) ନିରୂପଣ କରାଯାଏ ଏବଂ ତତ୍ପରେ ମଧ୍ୟବିନ୍ଦୁକୁ ଅନୁରୂପ ସଂଭାଗର ବାରମ୍ବାରତା (f) ଦ୍ୱାରା ଗୁଣନ କରି ଗୁଣଫଳ (fy) ସ୍ଥିର କରାଯାଇଥାଏ । ପରବର୍ତ୍ତୀ ସମୟରେ ସଂଭାଗର ମଧ୍ୟବିନ୍ଦୁ ଓ ବାରମ୍ବାରତାର ଗୁଣଫଳ ମାନଙ୍କର ସମଷ୍ଟି (Σfy) ଏବଂ ବାରମ୍ବାରତା ମାନଙ୍କର ସମଷ୍ଟି (Σf) ସ୍ଥିର କରାଯାଏ ।</p>
+<p>ମାଧ୍ୟମାନ (M) = $\frac{\Sigma fy}{\Sigma f}$ ସୂତ୍ର ପ୍ରୟୋଗ କରାଯାଇ ଭାଗ ବିଭକ୍ତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ସ୍ଥିର କରାଯାଇଥାଏ ।</p>
+<p>ନିମ୍ନ ଉଦାହରଣକୁ  ଦେଖ ।</p>
+<section class="example"><h4>ଉଦାହରଣ - 4 : ଜଣେ ବ୍ୟବସାୟୀର 100 ଦିନର ଉପାର୍ଜ୍ଜନକୁ ଏକ ଭାଗ ବିଭକ୍ତ ସାରଣୀରେ ଦର୍ଶାଯାଇଛି । ଉକ୍ତ ବ୍ୟବସାୟୀର ଦୈନିକ ମାଧ୍ୟମାନ ଉପାର୍ଜ୍ଜନ ନିର୍ଣ୍ଣୟ କର ।<br>(ନିମ୍ନ ସାରଣୀରେ ଦୈନିକ ଉପାର୍ଜ୍ଜନ (ଟଙ୍କା ହିସାବରେ) ଲାଗି x ଓ ବାରମ୍ବାରତା ଲାଗି f ବ୍ୟବହୃତ ହୋଇଛି ।)</h4><p>ସାରଣୀ - B</p>
+<div class="table-wrap"><table><tr><td>(x) :</td><td>0 - 10</td><td>10 - 20</td><td>20 - 30</td><td>30 - 40</td><td>40 - 50</td><td>50 - 60</td><td>60 - 70</td></tr><tr><td>(f) :</td><td>1</td><td>7</td><td>24</td><td>36</td><td>25</td><td>6</td><td>1</td></tr></table></div>
+<aside class="note">ସୂଚନା : ପୂର୍ବ ଉଦାହରଣରେ ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କର ବାରମ୍ବାରତା ଦତ୍ତଥିବା ସ୍ଥଳେ ଏଠାରେ ଗୋଟିଏ ଲେଖାଏଁ ସଂଭାଗର ବାରମ୍ବାରତା ଦତ୍ତ ଅଛି । ତେଣୁ ପ୍ରତ୍ୟେକ ସଂଭାଗର ମଧ୍ୟବିନ୍ଦୁ $y = \frac{l_1 + l_2}{2}$ , (ଯେଉଁଠି $l_1$ ଓ $l_2$ ଯଥାକ୍ରମେ ସଂଭାଗର ନିମ୍ନ ଓ ଊର୍ଦ୍ଧ୍ୱସୀମା) କୁ ସେହି ସଂଭାଗର ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବା ଲବ୍ଧାଙ୍କ ବୋଲି ଧରିନେଇ fy ଓ Σfy ନିର୍ଣ୍ଣୟ କଲେ, ଲବଧାଙ୍କଗୁଡ଼ିକର ସମଷ୍ଟି ମିଳିବ ।</aside>
+<p class="solution">ସମାଧାନ :-</p>
+<p>ସାରଣୀ - $B_1$</p>
+<div class="table-wrap"><table><tr><td>ଲବଧାଙ୍କ (ସଂଭାଗ)</td><td>ବାରମ୍ବାରତା (f)</td><td>ସଂଭାଗ ମଧ୍ୟବିନ୍ଦୁ ($y = \frac{l_1 + l_2}{2}$)</td><td>ବାରମ୍ବାରତା x ସଂଭାଗର ମଧ୍ୟବିନ୍ଦୁ (fy)</td></tr><tr><td>0 - 10</td><td>1</td><td>5</td><td>5</td></tr><tr><td>10 - 20</td><td>7</td><td>15</td><td>105</td></tr><tr><td>20 - 30</td><td>24</td><td>25</td><td>600</td></tr><tr><td>30 - 40</td><td>36</td><td>35</td><td>1260</td></tr><tr><td>40 - 50</td><td>25</td><td>45</td><td>1125</td></tr><tr><td>50 - 60</td><td>6</td><td>55</td><td>330</td></tr><tr><td>60 - 70</td><td>1</td><td>65</td><td>65</td></tr><tr><td></td><td>$\Sigma f = 100$</td><td></td><td>$\Sigma fy = 3490$</td></tr></table></div>
+<div class="math" data-tex="\text{ମାଧ୍ୟମାନ } M = \frac{\sum fy}{\sum fy} = \frac{3490}{100} = 34.9 \qquad \text{(ଉତ୍ତର)}">\text{ମାଧ୍ୟମାନ } M = \frac{\sum fy}{\sum fy} = \frac{3490}{100} = 34.9 \qquad \text{(ଉତ୍ତର)}</div>
+</section>
+<section class="example"><h4>ଉଦାହରଣ - 5 : ସାରଣୀ - B ରେ ଥିବା ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ,  ଆରମ୍ଭ ବିନ୍ଦୁ ନେଇ ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ବା ବିଚ୍ୟୁତି ପ୍ରଣାଳୀ ସାହାଯ୍ୟରେ ନିର୍ଣ୍ଣୟ କର ।</h4><p class="solution">ସମାଧାନ : ଏଠାରେ 35 କୁ ଆରମ୍ଭ ବିନ୍ଦୁ (A) ରୂପେ ନିଆଯାଉ ।</p>
+<p>ସାରଣୀ - $B_2$</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ</td><td>ବାରମ୍ବାରତା(f)</td><td>ସଂଭାଗର ମଧ୍ୟବିନ୍ଦୁ (x)</td><td>ବିଚ୍ୟୁତି (y) = x - A</td><td>ବାରମ୍ବାରତା × ବିଚ୍ୟୁତି (fy)</td></tr><tr><td>0 - 10</td><td>1</td><td>5</td><td>-30</td><td>-30</td></tr><tr><td>10 - 20</td><td>7</td><td>15</td><td>-20</td><td>-140</td></tr><tr><td>20 - 30</td><td>24</td><td>25</td><td>-10</td><td>-240</td></tr><tr><td>30 - 40</td><td>36</td><td>35</td><td>0</td><td>0</td></tr><tr><td>40 - 50</td><td>25</td><td>45</td><td>10</td><td>250</td></tr><tr><td>50 - 60</td><td>6</td><td>55</td><td>20</td><td>120</td></tr><tr><td>60 - 70</td><td>1</td><td>65</td><td>30</td><td>30</td></tr><tr><td></td><td>$\Sigma f = 100$</td><td></td><td></td><td>$\Sigma fy = -10$</td></tr></table></div>
+<div class="math" data-tex="\therefore \text{ ମାଧ୍ୟମାନ } (M) = A + \frac{\Sigma fy}{\Sigma f} = 35 + \frac{-10}{100} = 35 - 0.1 = 34.9">\therefore \text{ ମାଧ୍ୟମାନ } (M) = A + \frac{\Sigma fy}{\Sigma f} = 35 + \frac{-10}{100} = 35 - 0.1 = 34.9</div>
+</section>
+<h3 class="h-sec" id="s-seaapaan-bidyyuti-prnnaallii-step-deviati-p88" data-short="ସୋପାନ - ବିଦ୍ୟୁତି ପ୍ରଣାଳୀ"><span class="h-main">ସୋପାନ - ବିଦ୍ୟୁତି ପ୍ରଣାଳୀ</span><span class="h-gloss">Step - deviation method</span></h3>
+<p>ଏହି ପ୍ରଣାଳୀ ଏକ ଅତି ସରଳୀକୃତ ଏବଂ ଅତି ସଂକ୍ଷିପ୍ତ ହିସାବ ସଂପୃକ୍ତ ପ୍ରଣାଳୀ । ପୂର୍ବ ବର୍ଣ୍ଣିତ ସଂକ୍ଷିପ୍ତ ପ୍ରଣାଳୀ ଭଳି ଏହି ପ୍ରଣାଳୀରେ ମଧ୍ୟ ଆରମ୍ଭ ବିନ୍ଦୁ ଏବଂ ସଂପୃକ୍ତ ବିଚ୍ୟୁତି ମାନଙ୍କର ଆବଶ୍ୟକତା ପଡ଼ିଥାଏ । ସଂପୃକ୍ତ ବିଚ୍ୟୁତି ମାନଙ୍କର ଥିବା ସାଧାରଣ ଗୁଣନୀୟକ ଦ୍ୱାରା ବିଚ୍ୟୁତିକୁ ଭାଗ କରି ନିମ୍ନ ସୂତ୍ରରେ ପ୍ରୟୋଗ କରାଯାଇଥାଏ ।</p>
+<div class="math" data-tex="\text{ଏଠାରେ ସୂତ୍ରଟି ହେଲା : ମାଧ୍ୟମାନ } (M) = A + \frac{\Sigma fy&#39;}{\Sigma f} \times c">\text{ଏଠାରେ ସୂତ୍ରଟି ହେଲା : ମାଧ୍ୟମାନ } (M) = A + \frac{\Sigma fy&#39;}{\Sigma f} \times c</div>
+<div class="math" data-tex="(A) = \text{ଆରମ୍ଭ ବିନ୍ଦୁ}, \quad y&#39; = \frac{\text{ବିଚ୍ୟୁତି } (y)}{\text{ସାଧାରଣ ଗୁଣନୀୟକ } (c)}">(A) = \text{ଆରମ୍ଭ ବିନ୍ଦୁ}, \quad y&#39; = \frac{\text{ବିଚ୍ୟୁତି } (y)}{\text{ସାଧାରଣ ଗୁଣନୀୟକ } (c)}</div>
+<p>$\Sigma fy&#39;$ = ବାରମ୍ବାରତା (f) ଓ $y&#39;$ ର ଗୁଣଫଳମାନଙ୍କର ସମଷ୍ଟି</p>
+<p>f = ବାରମ୍ବାରତା, Σf = ବାରମ୍ବାରତା ମାନଙ୍କର ସମଷ୍ଟି ।</p>
+<section class="example"><h4>ଉଦାହରଣ - 6  : ନିମ୍ନ ସାରଣୀର ତଥ୍ୟକୁ ବ୍ୟବହାର କରି ବାରମ୍ବାରତା ବିତରଣୀ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ  ସୋପାନ - ବିଚ୍ୟୁତି ପ୍ରଣାଳୀରେ ସ୍ଥିର କର ।</h4><p>ସାରଣୀ - C</p>
+<div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ (x)</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td></tr><tr><td>ବାରମ୍ବାରତା (f)</td><td>3</td><td>4</td><td>5</td><td>2</td><td>1</td></tr></table></div>
+<p class="solution">ସମାଧାନ :</p>
+<p>ସାରଣୀ - $C_1$</p>
+<div class="table-wrap"><table><tr><td>x</td><td>f</td><td>x - A = y (A = 15)</td><td>c = 5 $y&#39; = \frac{y}{5}$</td><td>$fy&#39;$</td></tr><tr><td>5</td><td>3</td><td>-10</td><td>-2</td><td>-6</td></tr><tr><td>10</td><td>4</td><td>-5</td><td>-1</td><td>-4</td></tr><tr><td>15</td><td>5</td><td>0</td><td>0</td><td>0</td></tr><tr><td>20</td><td>2</td><td>5</td><td>1</td><td>2</td></tr><tr><td>25</td><td>1</td><td>10</td><td>2</td><td>2</td></tr><tr><td></td><td>$\Sigma f = 15$</td><td></td><td></td><td>$\Sigma fy&#39; = -6$</td></tr></table></div>
+<div class="math" data-tex="M = A + \frac{\Sigma fy&#39;}{\Sigma f} \times c = 15 + \frac{-6}{15} \times 5 = 15 + (-2) = 13">M = A + \frac{\Sigma fy&#39;}{\Sigma f} \times c = 15 + \frac{-6}{15} \times 5 = 15 + (-2) = 13</div>
+<p>ଏହି ଉଦାହରଣରେ ଲକ୍ଷ୍ୟକର ବିଚ୍ୟୁତି (x - A) ରେ ସାଧାରଣ ଗୁଣନୀୟକ 5 । ବିଚ୍ୟୁତି 5 ଦ୍ୱାରା ଭାଗ କରି ହିସାବକୁ ସରଳ  କରାଯାଇଛି ।</p>
+</section>
+<section class="example"><h4>ଉଦାହରଣ - 7 :  ସାରଣୀ B ରେ ଥିବା ଭାଗ ବିଭକ୍ତ ଓ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ ସୋପାନ - ବିଚ୍ୟୁତି ପ୍ରଣାଳୀରେ ନିର୍ଣ୍ଣୟ କର ।</h4><p>ସାରଣୀ - $B_3$</p>
+<p class="solution">ସମାଧାନ : ଏଠାରେ 35 କୁ ଆରମ୍ଭ ବିନ୍ଦୁ (A) ରୂପେ ନିଆଯାଇଛି ।</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ</td><td>ବାରମ୍ବାରତା (f)</td><td>ସଂଭାଗର ମଧ୍ୟବିନ୍ଦୁ (x)</td><td>ବିଚ୍ୟୁତି : y = x - A (A = 35)</td><td>$\frac{\text{ବିଚ୍ୟୁତି } (y&#39;)}{\text{ସଂଭାଗ ବିସ୍ତାର}}$</td><td>$fy&#39;$</td></tr><tr><td>0 - 10</td><td>1</td><td>5</td><td>-30</td><td>-3</td><td>-3</td></tr><tr><td>10 - 20</td><td>7</td><td>15</td><td>-20</td><td>-2</td><td>-14</td></tr><tr><td>20 - 30</td><td>24</td><td>25</td><td>-10</td><td>-1</td><td>-24</td></tr><tr><td>30 - 40</td><td>36</td><td>35</td><td>0</td><td>0</td><td>0</td></tr><tr><td>40 - 50</td><td>25</td><td>45</td><td>10</td><td>1</td><td>25</td></tr><tr><td>50 - 60</td><td>6</td><td>55</td><td>20</td><td>2</td><td>12</td></tr><tr><td>60 - 70</td><td>1</td><td>65</td><td>30</td><td>3</td><td>3</td></tr><tr><td></td><td>$\Sigma f = 100$</td><td></td><td></td><td></td><td>$\Sigma fy&#39; = -1$</td></tr></table></div>
+<div class="math" data-tex="\therefore \text{ ମାଧ୍ୟମାନ } (M) = A + \frac{\Sigma fy&#39;}{\Sigma f} \times i = 35 + \frac{-1}{100} \times 10 = 35 - 0.1 = 34.9">\therefore \text{ ମାଧ୍ୟମାନ } (M) = A + \frac{\Sigma fy&#39;}{\Sigma f} \times i = 35 + \frac{-1}{100} \times 10 = 35 - 0.1 = 34.9</div>
+<p>(i = ବିଚ୍ୟୁତି ମାନଙ୍କରେ ଥିବା ସାଧାରଣ ଗୁଣନୀୟକ । ଏଠାରେ ସାଧାରଣ ଗୁଣନୀୟ 10 ଯାହା ସଂଭାଗର ବିସ୍ତାର ସହ ସମାନ ।)</p>
+<aside class="note">ଲକ୍ଷ୍ୟକର : ମଧ୍ୟବିନ୍ଦୁ ସ୍ତମ୍ଭର ପ୍ରାୟ ମଝିରେ ଥିବା ସର୍ବାଧିକ ବାରମ୍ବାରତା ବିଶିଷ୍ଟ ମଧ୍ୟବିନ୍ଦୁକୁ ଆରମ୍ଭ ବିନ୍ଦୁ ରୂପେ ନିଆଯାଇଛି । ଏହା ଦ୍ୱାରା ହିସାବର ଜଟିଳତା କମିଯାଏ । ଅବଶ୍ୟ 35 ଭିନ୍ନ ଅନ୍ୟ ଯେ କୌଣସି ମଧ୍ୟବିନ୍ଦୁକୁ (ବା ଅନ୍ୟ ଯେ କୌଣସି ସଂଖ୍ୟାକୁ) ଆରମ୍ଭ ବିନ୍ଦୁ ନେଇ ଉପରୋକ୍ତ ସମାଧାନ ମଧ୍ୟ କରାଯାଇ ପାରିବ ।</aside>
+<p>25 କୁ ଆରମ୍ଭ ବିନ୍ଦୁ ରୂପେ ନେଇ ମାଧ୍ୟମାନ ନିର୍ଣ୍ଣୟ କରି, ହିସାବରେ କ’ଣ ପାର୍ଥକ୍ୟ ହେଉଛି ଲକ୍ଷ୍ୟ କର ।</p>
+<aside class="note">ବି.ଦ୍ର. : $x_1, x_2, x_3 \ldots x_n$ ଲବ୍ଧାଙ୍କଗୁଡ଼ିକର ମାଧ୍ୟମାନ M ହେଲେ, $\sum_{i=1}^{n}(x_i - M) = 0$<br>ଏହା ବିଚ୍ୟୁତି ସଂପର୍କିତ ଏକ ଉପାଦେୟ ତଥ୍ୟ । ଉତ୍ତର ପାଇଁ ଉଦାହରଣ - 8 ର ସମାଧାନକୁ ଦେଖ ।</aside>
+</section>
+<h3 class="h-sec" id="s-maadhyymaan-smbndhiiyy-ketek-upaadeyy-tthyy-so-p90" data-short="ମାଧ୍ୟମାନ ସମ୍ବନ୍ଧୀୟ କେତେକ ଉପାଦେୟ ତଥ୍ୟ"><span class="h-main">ମାଧ୍ୟମାନ ସମ୍ବନ୍ଧୀୟ କେତେକ ଉପାଦେୟ ତଥ୍ୟ</span><span class="h-gloss">Some Useful Results on Mean</span></h3>
+<p>$x_1, x_2, x_3 \ldots x_n$ ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ M ହେଲେ,</p>
+<p class="list-item">(i) $x_1 + a, x_2 + a, x_3 + a, \ldots, x_n + a$  ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ M + a ହେବ ।</p>
+<p class="list-item">(ii) $x_1 - a, x_2 - a, x_3 - a \ldots x_n - a$  ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ M - a ହେବ ।</p>
+<p class="list-item">(iii) $ax, ax_2, ax_3 \ldots ax_n$ ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ aM ହେବ ଯେତେବେଳେ $a \neq 0$  ।</p>
+<p class="list-item">(iv) $\frac{x_1}{a}, \frac{x_2}{a}, \frac{x_3}{a} \ldots\ldots \frac{x_n}{a}$  ଲବ୍ଧାଙ୍କଗୁଡ଼ିକର ମାଧ୍ୟମାନ $\frac{M}{a}$ ହେବ, ଯେତେବେଳେ $a \neq 0$  ।</p>
+<section class="example"><h4>ଉଦାହରଣ - 8 : $x_1, x_2, x_3 \ldots x_n$  ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକର ମାଧ୍ୟମାନ M ହେଲେ, ଦର୍ଶାଅ ଯେ $\sum_{i=1}^{n}(x_i - M) = 0$</h4><p class="solution">ସମାଧାନ : $M = \frac{x_1 + x_2 + x_3 \ldots\ldots + x_n}{n} \Rightarrow x_1 + x_2 + x_3 \ldots + x_n = n \cdot M$</p>
+<div class="math" data-tex="\text{ବର୍ତ୍ତମାନ } \sum_{i=1}^{n}(x_i - M) = (x_1 - M) + (x_2 - M) + (x_3 - M) \ldots + (x_n - M) \\ = (x_1 + x_2 + x_3 \ldots + x_n) - (M + M + M \ldots \text{ n ଥର}) \\ = (x_1 + x_2 + x_3 \ldots + x_n) - n \cdot M \\ = n \cdot M - n \cdot M = 0 \qquad \text{(ପ୍ରମାଣିତ)}">\text{ବର୍ତ୍ତମାନ } \sum_{i=1}^{n}(x_i - M) = (x_1 - M) + (x_2 - M) + (x_3 - M) \ldots + (x_n - M) \\ = (x_1 + x_2 + x_3 \ldots + x_n) - (M + M + M \ldots \text{ n ଥର}) \\ = (x_1 + x_2 + x_3 \ldots + x_n) - n \cdot M \\ = n \cdot M - n \cdot M = 0 \qquad \text{(ପ୍ରମାଣିତ)}</div>
+</section>
+<section class="example"><h4>ଉଦାହରଣ - 9 :  $x_1, x_2, x_3 \ldots$ ପ୍ରଭୃତି n ସଂଖ୍ୟକ ଲବ୍ଧାଙ୍କର ମାଧ୍ୟମାନ M  ।<br>ଯଦି $\sum_{i=1}^{n}(x_i - 12) = -10$ ଏବଂ $\sum_{i=1}^{n}(x_i - 3) = 62$ ହୁଏ  ତେବେ .n ଓ M ର ମାନ ସ୍ଥିର  ।</h4><p class="solution">ସମାଧାନ : $\sum_{i=1}^{n}(x_i - 12) = -10 \Rightarrow (x_1 - 12) + (x_2 - 12) + \ldots + (x_n - 12) = -10$</p>
+<div class="math" data-tex="\Rightarrow (x_1 + x_2 + x_3 \ldots + x_n) - 12n = -10 \\ \Rightarrow nM - 12n = -10 \ldots\ldots (i) \qquad \left[\because \frac{x_1 + x_2 + x_3 \ldots + x_n}{n} = M\right]">\Rightarrow (x_1 + x_2 + x_3 \ldots + x_n) - 12n = -10 \\ \Rightarrow nM - 12n = -10 \ldots\ldots (i) \qquad \left[\because \frac{x_1 + x_2 + x_3 \ldots + x_n}{n} = M\right]</div>
+<div class="math" data-tex="\text{ସେହିପରି } \sum_{i=1}^{n}(x_i - 3) = 62 \Rightarrow nM - 3n = 62 \ldots\ldots (ii)">\text{ସେହିପରି } \sum_{i=1}^{n}(x_i - 3) = 62 \Rightarrow nM - 3n = 62 \ldots\ldots (ii)</div>
+<p>(i) ରୁ (ii) ବିୟୋଗ କଲେ ପାଇବା $-9n = -72 \Rightarrow n = 8$</p>
+<p>‘n’ ର ମାନ (i) ରେ ପ୍ରୟୋଗ କଲେ $8M - 12 \times 8 = -10$</p>
+<div class="math" data-tex="\Rightarrow 8M = 12 \times 8 - 10 = 86 \Rightarrow M = \frac{86}{8} = 10.75 \qquad \text{(ଉତ୍ତର)}">\Rightarrow 8M = 12 \times 8 - 10 = 86 \Rightarrow M = \frac{86}{8} = 10.75 \qquad \text{(ଉତ୍ତର)}</div>
+</section>
+<section class="example"><h4>ଉଦାହରଣ - 10 :<br>$x_1, x_2, x_3 \ldots$ ପ୍ରଭୃତି n ସଂଖ୍ୟକ ଲବ୍ଧାଙ୍କର ମାଧ୍ୟମାନ M  ।<br>ଯଦି $\sum_{i=1}^{n}(x_i - 2) = 110$ ଏବଂ $\sum_{i=1}^{n}(x_i - 5) = 80$ ହୁଏ, ତେବେ n ଓ m ର ମାନ ସ୍ଥିର କର ।</h4><p class="solution">ସମାଧାନ : $\sum_{i=1}^{n}(x_i - 2) = 110$</p>
+<div class="math" data-tex="\Rightarrow \sum_{i=1}^{n}(x_i - 2) = (x_1 - 2) + (x_2 - 2) \ldots + (x_n - 2) = 110 \\ \Rightarrow (x_1 + x_2 + x_3 + \ldots + x_n) - 2n = 110 \\ \Rightarrow nM - 2n = 110 \ldots\ldots (i) \qquad \left[\because \frac{x_1 + x_2 + x_3 \ldots + x_n}{n} = M\right]">\Rightarrow \sum_{i=1}^{n}(x_i - 2) = (x_1 - 2) + (x_2 - 2) \ldots + (x_n - 2) = 110 \\ \Rightarrow (x_1 + x_2 + x_3 + \ldots + x_n) - 2n = 110 \\ \Rightarrow nM - 2n = 110 \ldots\ldots (i) \qquad \left[\because \frac{x_1 + x_2 + x_3 \ldots + x_n}{n} = M\right]</div>
+<div class="math" data-tex="\text{ପୁନଶ୍ଚ } \sum_{i=1}^{n}(x_i - 5) = 80 \Rightarrow nM - 5n = 80 \ldots\ldots (ii)">\text{ପୁନଶ୍ଚ } \sum_{i=1}^{n}(x_i - 5) = 80 \Rightarrow nM - 5n = 80 \ldots\ldots (ii)</div>
+<p>(i) ରୁ (ii) ବିୟୋଗ କଲେ, ପାଇବା $3n = 30 \Rightarrow n = \frac{30}{3} = 10$</p>
+<p>‘n’ ର ମାନ (i) ରେ ପ୍ରୟୋଗ କଲେ $10M - 2 \times 10 = 110$</p>
+<div class="math" data-tex="\Rightarrow 10M = 110 + 20 = 130 \Rightarrow M = \frac{130}{10} = 13 \\ \therefore n = 10 \text{ ଓ } M = 13 \qquad \text{(ଉତ୍ତର)}">\Rightarrow 10M = 110 + 20 = 130 \Rightarrow M = \frac{130}{10} = 13 \\ \therefore n = 10 \text{ ଓ } M = 13 \qquad \text{(ଉତ୍ତର)}</div>
+</section>
+<a class="exercise-card" href="exercises/exercise-5a/exercise.html">
+  <span class="exercise-title">ଅନୁଶୀଳନୀ - 5 (a)</span>
+<span class="exercise-meta">16 questions · pages 91–95</span></a>
+<h3 class="h-sec" id="s-5-2-2-p95" data-short="5.2.2 ମଧ୍ୟମା"><span class="h-num">5.2.2</span><span class="h-main">ମଧ୍ୟମା</span><span class="h-gloss">Median</span></h3>
+<p>କୌଣସି ତଥ୍ୟାବଳୀର ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକ ସାନରୁ ବଡ଼ ବା ବଡ଼ରୁ ସାନ କ୍ରମରେ ସଜ୍ଜିତ ଥିଲେ ସେମାନଙ୍କର ମଧ୍ୟମ ଲବ୍ଧାଙ୍କକୁ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା କୁହାଯାଏ ।</p>
+<p>ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ : ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା n ଅଯୁଗ୍ମ ହେଲେ ତଥ୍ୟାବଳୀର ଗୋଟିଏ ମଧ୍ୟମ ସ୍ଥାନ ଥାଏ ଓ ତାହା ହେଉଛି $\frac{n + 1}{2}$ ତମ ସ୍ଥାନ । ଏଣୁ ଏ କ୍ଷେତ୍ରରେ $\frac{n + 1}{2}$ ତମ ସ୍ଥାନୀୟ ଲବ୍ଧାଙ୍କ ହିଁ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମ ଲବ୍ଧାଙ୍କ । ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା ଯୁଗ୍ମ ହେଲେ ତଥ୍ୟାବଳୀର ଦୁଇଟି ମଧ୍ୟମ ସ୍ଥାନ ଥାଏ ଓ ସେ ଦୁଇଟି ହେଲା $\frac{n}{2}$ ତମ ଓ $(\frac{n}{2} + 1)$ତମ ସ୍ଥାନ । ଏ କ୍ଷେତ୍ରରେ ଦୁଇଟି ମଧ୍ୟମ ସ୍ଥାନ ଥିବାରୁ ସେହି ଦୁଇ ସ୍ଥାନୀୟ ଲବ୍ଧାଙ୍କ ଦ୍ୱୟର ହାରାହାରି ନେଇ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କରାଯାଏ ।</p>
+<p>ଅର୍ଥାତ୍ ଊର୍ଦ୍ଧ୍ୱ ବା ଅଧଃ କ୍ରମରେ ସଜ୍ଜିତ ଦତ୍ତ ତଥ୍ୟାବଳୀର ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା n ହେଉ ।</p>
+<div class="math" data-tex="n \text{ ଅଯୁଗ୍ମ ହେଲେ, ମଧ୍ୟମା } (M_d) = \frac{n + 1}{2} \text{ ତମ ଲବ୍ଧାଙ୍କ,}">n \text{ ଅଯୁଗ୍ମ ହେଲେ, ମଧ୍ୟମା } (M_d) = \frac{n + 1}{2} \text{ ତମ ଲବ୍ଧାଙ୍କ,}</div>
+<div class="math" data-tex="n \text{ ଯୁଗ୍ମ ହେଲେ, ମଧ୍ୟମା } (M_d) = \frac{1}{2}\left\{\frac{n}{2} \text{ ତମ ଲବ୍ଧାଙ୍କ} + \left(\frac{n}{2} + 1\right) \text{ ତମ ଲବ୍ଧାଙ୍କ}\right\}">n \text{ ଯୁଗ୍ମ ହେଲେ, ମଧ୍ୟମା } (M_d) = \frac{1}{2}\left\{\frac{n}{2} \text{ ତମ ଲବ୍ଧାଙ୍କ} + \left(\frac{n}{2} + 1\right) \text{ ତମ ଲବ୍ଧାଙ୍କ}\right\}</div>
+<h3 class="h-sec" id="s-a-saankhyyik-tthyyaablliir-mdhyymaa-nirnnnnyy-p96" data-short="(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ"><span class="h-main">(a) ସାଂଖ୍ୟିକ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</span></h3>
+<section class="example"><h4>ଉଦାହରଣ - 11 :</h4><p>(i) ମନେକର 7 ଜଣ  ପିଲାଙ୍କର ଓଜନ (କି.ଗ୍ରା. ରେ) 40, 42, 44, 45, 46, 48, 49  ।<br>(ଏଠାରେ ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା ଅଯୁଗ୍ମ ଓ ସେଗୁଡ଼ିକ ଊର୍ଦ୍ଧ୍ୱକ୍ରମରେ ସଜ୍ଜିତ ।)</p>
+<div class="math" data-tex="\text{(ଓଜନର) ମଧ୍ୟମା} = \left(\frac{7 + 1}{2}\right) \text{ ତମ ଲବ୍ଧାଙ୍କ ଅର୍ଥାତ୍ ଚତୁର୍ଥ ଲବ୍ଧାଙ୍କ} \qquad \therefore M_d = 45">\text{(ଓଜନର) ମଧ୍ୟମା} = \left(\frac{7 + 1}{2}\right) \text{ ତମ ଲବ୍ଧାଙ୍କ ଅର୍ଥାତ୍ ଚତୁର୍ଥ ଲବ୍ଧାଙ୍କ} \qquad \therefore M_d = 45</div>
+<p>(ii) ମନେକର 6 ଜଣ ଛାତ୍ରଙ୍କର ଗଣିତ ପରୀକ୍ଷାର ନମ୍ବର  87, 95, 63, 53, 69, ଓ 72  ।<br>ଏଠାରେ ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକ ଊର୍ଦ୍ଧ୍ୱ ବା ଅଧଃ କ୍ରମରେ ସଜ୍ଜିତ ନ ଥିବାରୁ ପ୍ରଥମେ ସେଗୁଡ଼ିକୁ ଏକ କ୍ରମରେ ସଜାଇବା ଆବଶ୍ୟକ ।<br>ଊର୍ଦ୍ଧ୍ୱକ୍ରମରେ ନମ୍ବର ଗୁଡ଼ିକ ହେଲା :- 53, 63, 69, 72, 87, 95  ଫଳରେ ମଧ୍ୟମ ଲବ୍ଧାଙ୍କ ଦ୍ୱୟ ହେଲେ $\frac{n}{2}$ ତମ ଓ $(\frac{n}{2} + 1)$ ତମ, ଅର୍ଥାତ୍ ତୃତୀୟ ଓ ଚତୁର୍ଥ ସ୍ଥାନୀୟ ଲବ୍ଧାଙ୍କ ।</p>
+<div class="math" data-tex="\therefore \text{ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା } M_d = \frac{(\text{ତୃତୀୟ ଲବଧାଙ୍କ} + \text{ଚତୁର୍ଥ ଲବଧାଙ୍କ})}{2} = \frac{69 + 72}{2} = \frac{141}{2} = 70.5">\therefore \text{ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା } M_d = \frac{(\text{ତୃତୀୟ ଲବଧାଙ୍କ} + \text{ଚତୁର୍ଥ ଲବଧାଙ୍କ})}{2} = \frac{69 + 72}{2} = \frac{141}{2} = 70.5</div>
+</section>
+<h3 class="h-sec" id="s-b-baarmbaartaa-bitrnn-saarnniire-prkaashit-tth-p96" data-short="(b) ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ :-"><span class="h-main">(b) ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ :-</span></h3>
+<section class="example"><h4>ଉଦାହରଣ - 12</h4><p>ସାରଣୀ - D</p>
+<div class="table-wrap"><table><tr><td>ଓଜନ (କି.ଗ୍ରା. ରେ):</td><td>46</td><td>48</td><td>50</td><td>52</td><td>53</td><td>54</td><td>55</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>7</td><td>5</td><td>8</td><td>12</td><td>10</td><td>2</td><td>1</td></tr></table></div>
+<p>ଉପରିସ୍ଥ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କର ।</p>
+<p class="solution">ସମାଧାନ :- ଏଭଳି ଏକ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକ ଊର୍ଦ୍ଧ୍ୱ (ବା ଅଧଃ) କ୍ରମରେ ସଜ୍ଜିତ ହୋଇରହିଥାନ୍ତି । ତଥ୍ୟାବଳୀର ରାଶିକୃତ ବାରମ୍ବାରତା ନିର୍ଣ୍ଣୟ କରି ମଧ୍ୟମ ଲବ୍ଧାଙ୍କ ନିର୍ଣ୍ଣୟ କରି ପାରିଲେ ମଧ୍ୟମା ନିର୍ଣ୍ଣିତ ହୋଇ ପାରିବ ।</p>
+<p>ସାରଣୀ - $D_1$</p>
+<div class="table-wrap"><table><tr><td>ଓଜନ (x) (କି.ଗ୍ରା.ରେ)</td><td>ବାରମ୍ବାରତା (f)</td><td>ରାଶିକୃତ ବାରମ୍ବାରତା (c.f.)</td><td>ଲବ୍ଧାଙ୍କର ସ୍ଥାନ</td></tr><tr><td>46</td><td>7</td><td>7</td><td>1 ରୁ 7 ତମସ୍ଥାନ</td></tr><tr><td>48</td><td>5</td><td>12</td><td>8 ରୁ 12 ତମସ୍ଥାନ</td></tr><tr><td>50</td><td>8</td><td>20</td><td>13 ରୁ 20 ତମସ୍ଥାନ</td></tr><tr><td>52</td><td>12</td><td>32</td><td>21 ରୁ 32 ତମସ୍ଥାନ</td></tr><tr><td>53</td><td>10</td><td>42</td><td>33 ରୁ 42 ତମସ୍ଥାନ</td></tr><tr><td>54</td><td>2</td><td>44</td><td>43 ରୁ 44 ତମସ୍ଥାନ</td></tr><tr><td>55</td><td>1</td><td>45</td><td>45 ତମସ୍ଥାନ</td></tr><tr><td></td><td>$\Sigma f = 45$</td><td></td><td></td></tr></table></div>
+<div class="math" data-tex="\text{ମୋଟ ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା n ଅଯୁଗ୍ମ ହୋଇଥିବାରୁ ମଧ୍ୟମ ଲବ୍ଧାଙ୍କର ସ୍ଥାନ } (m) = \frac{n + 1}{2} = \frac{45 + 1}{2} = 23">\text{ମୋଟ ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା n ଅଯୁଗ୍ମ ହୋଇଥିବାରୁ ମଧ୍ୟମ ଲବ୍ଧାଙ୍କର ସ୍ଥାନ } (m) = \frac{n + 1}{2} = \frac{45 + 1}{2} = 23</div>
+<p>∴ ମଧ୍ୟମା = 23 ତମ ସ୍ଥାନୀୟ ଲବ୍ଧାଙ୍କ<br>ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କ କେଉଁ ସ୍ଥାନରୁ କେଉଁ ସ୍ଥାନ ପର୍ଯ୍ୟନ୍ତ ରହିଛି ତାହାର ସୂଚନା ଦିଆଯାଇଛି  ।<br>ଲକ୍ଷ୍ୟ କର :-  21 ତମ ସ୍ଥାନ (50 ର c.f. 20 ର ପରବର୍ତ୍ତୀ) ରୁ 32 ତମ ସ୍ଥାନ ପର୍ଯ୍ୟନ୍ତ ଲବ୍ଧାଙ୍କ 52  ।<br>ଏଣୁ 32 ତମ ସ୍ଥାନ ପର୍ଯ୍ୟନ୍ତ ଲବ୍ଧାଙ୍କ ମଧ୍ୟ 52  ।<br>∴ ମଧ୍ୟମା = 52 କି.ଗ୍ରା. ।   (ଉତ୍ତର)</p>
+<aside class="note">ସୂତ୍ର :- ଯେଉଁ ଲବ୍ଧାଙ୍କର ରାଶିକୃତ ବାରମ୍ବାରତା ମଧ୍ୟମ ସ୍ଥାନ (m) ଅପେକ୍ଷା ଠିକ୍ ବୃହତ୍ତର ସେହି ଲବ୍ଧାଙ୍କ ହିଁ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା  ।</aside>
+</section>
+<section class="example"><h4>ଉଦାହରଣ - 13  : 60 ଜଣ ଛାତ୍ରଙ୍କର ଓଜନ ନିମ୍ନ ସାରଣୀରେ ପ୍ରଦତ୍ତ ହୋଇଛି  । ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କର ।</h4><p>ସାରଣୀ - E</p>
+<div class="table-wrap"><table><tr><td>ଓଜନ (କି.ଗ୍ରା.) x :</td><td>37</td><td>38</td><td>39</td><td>40</td><td>41</td></tr><tr><td>ଛାତ୍ର ସଂଖ୍ୟା (f) :</td><td>10</td><td>14</td><td>18</td><td>12</td><td>6</td></tr></table></div>
+<p class="solution">ସମାଧାନ :-</p>
+<p>ସୂଚନା :- ଏଠାରେ ମୋଟ ଲବ୍ଧାଙ୍କ ସଂଖ୍ୟା n( = 60) ଯୁଗ୍ମ ହୋଇଥିବାରୁ ଦୁଇଟି ମଧ୍ୟମ ସ୍ଥାନ ଅଛି ଓ ସେ ଦୁଇଟି ହେଲା $\frac{60}{2}$ ତମ ଓ $\frac{60}{2}$+1 ତମ ସ୍ଥାନ ଅର୍ଥାତ୍ 30 ତମ ଓ 31 ତମ ସ୍ଥାନ ।</p>
+<p>.: ମଧ୍ୟମ ସ୍ଥାନ ହେଉଛି $\left(\frac{30 + 31}{2}\right)$ ତମ ସ୍ଥାନ । ଅର୍ଥାତ୍ 30.5 ତମ ସ୍ଥାନୀୟ ଲବ୍ଧାଙ୍କ ହେଉଛି ମଧ୍ୟମା । ଏହାର ଅର୍ଥହେଲା 30 ତମ ଓ 31 ତମ ସ୍ଥାନୀୟ ଲବ୍ଧାଙ୍କ ଦ୍ୱୟର ହାରାହାରି ହେଉଛି ମଧ୍ୟମା ।</p>
+<p>ସାରଣୀ - $E_1$</p>
+<div class="table-wrap"><table><tr><td>ଓଜନ (କି.ଗ୍ରା.) (x)</td><td>ବାରମ୍ବାରତା (f)</td><td>ରାଶିକୃତ ବାରମ୍ବାରତା (cf)</td></tr><tr><td>37</td><td>10</td><td>10</td></tr><tr><td>38</td><td>14</td><td>24</td></tr><tr><td>39</td><td>18</td><td>42</td></tr><tr><td>40</td><td>12</td><td>54</td></tr><tr><td>41</td><td>6</td><td>60</td></tr><tr><td></td><td>$\Sigma f = 60$</td><td></td></tr></table></div>
+<div class="math" data-tex="\text{ମଧ୍ୟମା ଲବ୍ଧାଙ୍କର ସ୍ଥାନ } (m) = \frac{n + 1}{2} = \frac{60 + 1}{2} = 30.5">\text{ମଧ୍ୟମା ଲବ୍ଧାଙ୍କର ସ୍ଥାନ } (m) = \frac{n + 1}{2} = \frac{60 + 1}{2} = 30.5</div>
+<p>30.5 ଠାରୁ ଠିକ୍ ବୃହତ୍ତର ରାଶିକୃତ ବାରମ୍ବାତା ହେଲା 42 ।<br>.: ମଧ୍ୟମା = 39 କି.ଗ୍ରା.   (ଉତ୍ତର)</p>
+</section>
+<h3 class="h-sec" id="s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p98" data-short="(c) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ"><span class="h-main">(c) ଭାଗ ବିଭକ୍ତ ଏବଂ ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀରେ ପ୍ରକାଶିତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</span></h3>
+<p>ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀ ସର୍ବଦା ଅଧଃ ବା ଊର୍ଦ୍ଧ୍ୱ କ୍ରମରେ ସଜ୍ଜିତ ହୋଇ ରହିଥାଏ । ତେଣୁ ଏ କ୍ଷେତ୍ରରେ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମ ଲବ୍ଧାଙ୍କ ନିର୍ଣ୍ଣୟ କଲେ ହିଁ ମଧ୍ୟମା ମିଳିଥାଏ ।</p>
+<p>n ଯୁଗ୍ମ ହେଉ ବା ଅଯୁଗ୍ମ ହେଉ $\frac{n}{2}$ ତମ ସ୍ଥାନକୁ ତଥ୍ୟାବଳୀର ମଧ୍ୟମ ସ୍ଥାନ ନିଆଯାଇପାରେ (ଅବଶ୍ୟ ଯେଉଁଠି ‘n’ ର ମାନ ଅପେକ୍ଷାକୃତ ବୃହତ୍) ।</p>
+<p>ଭାଗବିଭକ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମ ସ୍ଥାନଟି ଯେଉଁ ସଂଭାଗ ଅନ୍ତର୍ଗତ ହୋଇଥାଏ, ସେହି ସଂଭାଗକୁ ମଧ୍ୟମା ସଂଭାଗ କୁହାଯାଏ । ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ ଲାଗି ପ୍ରଥମେ ଭାଗ ବିଭକ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା - ସଂଭାଗ ନିର୍ଣ୍ଣୟ କରାଯାଏ ।</p>
+<p>ପୂର୍ବ ଆଲୋଚନାରୁ ଜାଣିଛେ ଯେ, ପ୍ରତ୍ୟେକ ସଂଭାଗର ରାଶିକୃତ ବାରମ୍ବାରତା (cf) ନିର୍ଣ୍ଣୟ କରି ସାରିବା ପରେ ଯେଉଁ ସଂଭାଗର ରାଶିକୃତ ବାରମ୍ବାରତା ତଥ୍ୟାବଳୀର ମଧ୍ୟମ ସ୍ଥାନ (m)  ଅପେକ୍ଷା ଠିକ୍ ବୃହତ୍ତର ହେବ ସେହି ସଂଭାଗ ହିଁ ମଧ୍ୟମା-ସଂଭାଗ ହେବ ।</p>
+<aside class="note">ମଧ୍ୟମା ନିର୍ଣ୍ଣୟର ସୂତ୍ର : ମଧ୍ୟମା $(M_d) = l + \frac{m - c}{f} \times i$</aside>
+<p>m = ମଧ୍ୟମା ସ୍ଥାନ , l = ମଧ୍ୟମା ସଂଭାଗର ନିମ୍ନସୀମା, f = ମଧ୍ୟମା ସଂଭାଗର ବାରମ୍ବାରତା, c = ମଧ୍ୟମା ସଂଭାଗର ଠିକ୍ ପୂର୍ବବର୍ତ୍ତୀ ସଂଭାଗର ରାଶିକୃତ ବାରମ୍ବାରତା ଏବଂ i = ସଂଭାଗ ବିସ୍ତାର</p>
+<section class="example"><h4>ଉଦାହରଣ 14 ଏକ ଶ୍ରେଣୀର ଛାତ୍ରଛାତ୍ରୀମାନଙ୍କର ଭୌତିକ ବିଜ୍ଞାନ (Physical Science) ପରୀକ୍ଷାର ନମ୍ବର ନିମ୍ନସ୍ଥ ସାରଣୀରେ ଦିଆଯାଇଛି । ଶ୍ରେଣୀର ମଧ୍ୟମା ନମ୍ବର ନିର୍ଣ୍ଣୟ କର ।</h4><p>ସାରଣୀ F</p>
+<div class="table-wrap"><table><tr><td>ନମ୍ବର (x) :</td><td>0 - 10</td><td>10 - 20</td><td>20 - 30</td><td>30 - 40</td><td>40 - 50</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>5</td><td>7</td><td>10</td><td>8</td><td>5</td></tr></table></div>
+<p class="solution">ସମାଧାନ : ଲକ୍ଷ୍ୟ କର ଦତ୍ତ ସାରଣୀ ଏକ ବହିର୍ଭୂତ (Exclusive)  ସଂଭାଗୀକରଣ ବିଶିଷ୍ଟ ।</p>
+<p>ସାରଣୀ : $F_1$</p>
+<div class="table-wrap"><table><tr><td>ନମ୍ବର (x)</td><td>ବାରମ୍ବାରତା (f)</td><td>ରାଶିକୃତ ବାରମ୍ବାରତା (cf)</td></tr><tr><td>0 - 10</td><td>5</td><td>5</td></tr><tr><td>10 - 20</td><td>7</td><td>12</td></tr><tr><td>20 - 30</td><td>10</td><td>22</td></tr><tr><td>30 - 40</td><td>8</td><td>30</td></tr><tr><td>40 - 50</td><td>5</td><td>35</td></tr></table></div>
+<p>n = 35</p>
+<div class="math" data-tex="\text{ଏଠାରେ ମଧ୍ୟମ ସ୍ଥାନ } (m) = \frac{n}{2} = \frac{35}{2} = 17.5 \text{ ତମ ସ୍ଥାନ}">\text{ଏଠାରେ ମଧ୍ୟମ ସ୍ଥାନ } (m) = \frac{n}{2} = \frac{35}{2} = 17.5 \text{ ତମ ସ୍ଥାନ}</div>
+<p>m ଠାରୁ ଠିକ୍ ବୃହତ୍ତର ରାଶିକୃତ ବାରମ୍ବାରତା = 22  ∴ ମଧ୍ୟମା ସଂଭାଗ ହେଲା : (20 - 30)<br>ଫଳରେ l = 20, f = 10, c = 12 ଏବଂ i = 10</p>
+<div class="math" data-tex="\text{ମଧ୍ୟମା } (M_d) = l + \frac{m - c}{f} \times i \Rightarrow \text{ମଧ୍ୟମା } (M_d) = 20 + \frac{17.5 - 12}{10} \times 10 = 20 + 5.5 = 25.5 \text{ (ଉତ୍ତର)}">\text{ମଧ୍ୟମା } (M_d) = l + \frac{m - c}{f} \times i \Rightarrow \text{ମଧ୍ୟମା } (M_d) = 20 + \frac{17.5 - 12}{10} \times 10 = 20 + 5.5 = 25.5 \text{ (ଉତ୍ତର)}</div>
+</section>
+<section class="example"><h4>ଉଦାହରଣ 15 :  ନିମ୍ନ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ସ୍ଥିର କର ।</h4><p>ସାରଣୀ G</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ :</td><td>4 - 7</td><td>8 - 11</td><td>12 - 15</td><td>16 - 19</td><td>20 - 23</td><td>24 - 27</td><td>28 - 31</td><td>32 - 35</td></tr><tr><td>ବାରମ୍ବାରତା:</td><td>4</td><td>11</td><td>25</td><td>47</td><td>56</td><td>29</td><td>20</td><td>08</td></tr></table></div>
+<p class="solution">ସମାଧାନ : ସୂଚନା : ଆମକୁ ପ୍ରଥମେ ଦତ୍ତ ଅନ୍ତର୍ଭୁକ୍ତ (Inclusive) ସଂଭାଗୀକରଣକୁ ବହିର୍ଭୂତ (Exclusive) ସଂଭାଗୀକରଣରେ ପ୍ରକାଶ କରିବା ଉଚିତ  । ବହିର୍ଭୂତ ସଂଭାଗୀକରଣରେ ସଂଭାଗର ବାରମ୍ବାରତା କିମ୍ବା ସଂଭାଗ ବିସ୍ତାରର ପରିବର୍ତ୍ତନ ନ ହେଲେ ମଧ୍ୟ ସଂଭାଗର ନିମ୍ନସୀମା ନିର୍ଣ୍ଣୟରେ 0.5 ଅନ୍ତର ରହିବ ।</p>
+<aside class="note">ବି.ଦ୍ର.: ଅନ୍ତର୍ଭୁକ୍ତ ସଂଭାଗୀକରଣରେ ପ୍ରକାଶିତ ସଂଭାଗଗୁଡ଼ିକୁ ବହିର୍ଭୂତ କରିବାକୁ ହେଲେ ପ୍ରଥମ ସଂଭାଗର ଉଚ୍ଚ ସୀମା ଏବଂ ଦ୍ୱିତୀୟ ସଂଭାଗର ନିମ୍ନସୀମା ମଧ୍ୟରେ ଅନ୍ତର ସ୍ଥିର କରି ତାର ଅର୍ଦ୍ଧେକକୁ ପ୍ରତ୍ୟେକ ସଂଭାଗର ନିମ୍ନ ସୀମାରୁ ବିୟୋଗ କରାଯାଏ ଏବଂ ଉଚ୍ଚ ସୀମାରେ ଯୋଗ କରି ସଂଭାଗୀକରଣକୁ ବହିର୍ଭୂତ ସଂଭାଗୀକରଣ ବିଶିଷ୍ଟ କରାଯାଇଥାଏ<br>ଏଠାରେ ପ୍ରଥମ ସଂଭାଗର ଉଚ୍ଚ ସୀମା - ଦ୍ୱିତୀୟ ସଂଭାଗର ନିମ୍ନସୀମା = 1<br>∴ $\frac{1}{2}$ ଅର୍ଥାତ୍ 0.5 କୁ ପ୍ରତ୍ୟେକ ସଂଭାଗର ନିମ୍ନସୀମାରୁ ବିୟୋଗ କରାଯିବ ଏବଂ 0.5 କୁ ଉକ୍ତ ସଂଭାଗର ଉଚ୍ଚ ସୀମାରେ ଯୋଗ କରାଯିବ । ନିମ୍ନ ସାରଣୀକୁ ଦେଖ ।</aside>
+<p>ସାରଣୀ - $G_1$</p>
+<div class="table-wrap"><table><tr><td>ସଂଭାଗ</td><td>ବାରମ୍ବାରତା (f)</td><td>ରାଶିକୃତ ବାରମ୍ବାରତା (cf)</td></tr><tr><td>3.5 - 7.5</td><td>4</td><td>4</td></tr><tr><td>7.5 - 11.5</td><td>11</td><td>15</td></tr><tr><td>11.5 - 15.5</td><td>25</td><td>40</td></tr><tr><td>15.5 - 19.5</td><td>47</td><td>87</td></tr><tr><td>19.5 - 23.5</td><td>56</td><td>143</td></tr><tr><td>23.5 - 27.5</td><td>29</td><td>172</td></tr><tr><td>27.5 - 31.5</td><td>20</td><td>192</td></tr><tr><td>31.5 - 35.5</td><td>08</td><td>200</td></tr></table></div>
+<p>n = 200</p>
+<div class="math" data-tex="\text{ମଧ୍ୟମ ସ୍ଥାନ } (m) = \frac{n}{2} = \frac{200}{2} = 100">\text{ମଧ୍ୟମ ସ୍ଥାନ } (m) = \frac{n}{2} = \frac{200}{2} = 100</div>
+<p>m ଠାରୁ ଠିକ୍ ବୃହତ୍ତର ରାଶିକୃତ ବାରମ୍ବାରତା = 143  ∴ ମଧ୍ୟମା ସଂଭାଗ = (19.5 - 23.5) ଫଳରେ l = 19.5, f = 56, c = 87, i = 4</p>
+<div class="math" data-tex="\text{ମଧ୍ୟମା (Md)} = l + \frac{m - c}{f} \times i = 19.5 + \frac{100 - 87}{56} \times 4 \\ = 19.5 + \frac{13}{14} = 19.5 + 0.93 = 20.43 \qquad \text{(ଉତ୍ତର)}">\text{ମଧ୍ୟମା (Md)} = l + \frac{m - c}{f} \times i = 19.5 + \frac{100 - 87}{56} \times 4 \\ = 19.5 + \frac{13}{14} = 19.5 + 0.93 = 20.43 \qquad \text{(ଉତ୍ତର)}</div>
+</section>
+<h3 class="h-sec" id="s-d-raashikrt-baarmbaartaa-suuck-lekh-ojaaibh-p100" data-short="(d) ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ ଓଜାଇଭ ସାହାଯ୍ୟରେ ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ"><span class="h-main">(d) ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ ଓଜାଇଭ ସାହାଯ୍ୟରେ ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ</span><span class="h-gloss">Ogive</span></h3>
+<p>ବାରମ୍ବାରତା ବିତରଣ ସାରଣୀ ଅନ୍ତର୍ଭୁକ୍ତ ତଥ୍ୟାବଳୀର ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ (Ogive)  ସାହାଯ୍ୟରେ ମଧ୍ୟ ଉକ୍ତ ସାରଣୀରେ ପ୍ରଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କରାଯାଇପାରେ । ନିମ୍ନସ୍ଥ ଉଦାହରଣ ସାରଣୀ - H  ଓ ସାରଣୀ - I  ରେ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କରାଯାଇଛି, ଅନୁଧ୍ୟାନ କର ।</p>
+<section class="example"><h4>ଉଦାହରଣ - 16 : ସାରଣୀ - H ପ୍ରଦତ୍ତ ତଥ୍ୟାବଳୀର ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ  ଅଂକନ କରି ଏହା ସାହାଯ୍ୟରେ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କର ।</h4><p>ସାରଣୀ - H</p>
+<div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ .</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>6</td><td>8</td><td>8</td><td>11</td><td>22</td><td>36</td><td>59</td><td>28</td><td>21</td><td>3</td></tr></table></div>
+<p class="solution">ସମାଧାନ : ସୂଚନା - (i) ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ ସାହାଯ୍ୟରେ ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କରିବା ଲାଗି ପ୍ରଥମେ ଏହିଲେଖ ଅଙ୍କନ କରିବା ଆବଶ୍ୟକ । ଏଥିଲାଗି ପ୍ରଥମେ ସାରଣୀରେ ରାଶିକୃତ ବାରମ୍ବାରତା ନିର୍ଣ୍ଣୟ କରାଯିବ ।</p>
+<p>(ii) ତା’ପରେ ଗ୍ରାଫ୍ କାଗଜରେ ଦୁଇଟି ଅକ୍ଷ ନିର୍ଦ୍ଦେଶ କର ଓ ଆନୁଭୂମିକ ଅକ୍ଷରେ ଲବ୍ଧାଙ୍କ ଏବଂ ଉଲ୍ଲମ୍ବ ଅକ୍ଷରେ ରାଶିକୃତ ବାରମ୍ବାରତା ଦର୍ଶାଅ ।</p>
+<p>(iii) ଦତ୍ତ ତଥ୍ୟାବଳୀର ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କ ସହ ସେହି ଲବ୍ଧାଙ୍କର ରାଶିକୃତ ବାରମ୍ବାରତା ଅଥବା ସଂଭାଗର ଊର୍ଦ୍ଧ୍ୱସୀମା ସହ ସେହି ସଂଭାଗର ରାଶିକୃତ ବାରମ୍ବାରତାକୁ ନେଇ ଗ୍ରାଫ୍ କାଗଜରେ ବିନ୍ଦୁମାନ ସ୍ଥାପନ କରିବାକୁ ହେବ ।</p>
+<p>(iv) ବିନ୍ଦୁ ଗୁଡ଼ିକୁ କ୍ରମାନ୍ୱୟରେ ମୁକ୍ତ ହସ୍ତରେ ଯୋଗକଲେ ଉଦ୍ଦିଷ୍ଟ ଓଜାଇଭ୍ (Ogive) ଲେଖ ମିଳିବ ।</p>
+<p>ସାରଣୀ - $H_1$</p>
+<div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ :</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr><tr><td>ବାରମ୍ବାତା :</td><td>6</td><td>8</td><td>8</td><td>11</td><td>22</td><td>36</td><td>59</td><td>29</td><td>21</td><td>3</td></tr><tr><td>ରାଶିକୃତ ବାରମ୍ବାରତା :</td><td>6</td><td>14</td><td>22</td><td>33</td><td>55</td><td>91</td><td>150</td><td>179</td><td>200</td><td>203</td></tr></table></div>
+<p>ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ ପ୍ରଣାଳୀ :</p>
+<div class="math" data-tex="\text{ମଧ୍ୟମା ସ୍ଥାନ } (m) = \frac{n + 1}{2} = \frac{203 + 1}{2} = 102">\text{ମଧ୍ୟମା ସ୍ଥାନ } (m) = \frac{n + 1}{2} = \frac{203 + 1}{2} = 102</div>
+<p>ଲେଖ ଉପରିସ୍ଥ ବିନ୍ଦୁ P ନିର୍ଣ୍ଣୟ କର ଯାହର ରାଶିକୃତ ବାରମ୍ବାରତା (c.f.) = 102</p>
+<figure><img src="images/fig-5-01.png" width="507" alt="Ogive (cumulative frequency curve) for table H1: x-axis scores 5 to 14, y-axis cumulative frequency 0 to 200; points (5, 6), (6, 14), (7, 22), (8, 33), (9, 55), (10, 91), (11, 150), (12, 179), (13, 200), (14, 203) joined; a horizontal line at c.f. 102 meets the curve at P, and the perpendicular from P meets the x-axis at M, just above 10." loading="lazy"><figcaption>ସାରଣୀ - I</figcaption></figure>
+<p>P ବିନ୍ଦୁରୁ ଲବ୍ଧାଙ୍କ ନିର୍ଦ୍ଦେଶକ ଅକ୍ଷ ପ୍ରତି ଏକ ଲମ୍ବ ଅଙ୍କନ କର । ଏହାର ପାଦବିନ୍ଦୁ M ହେଉ । ଏଣୁ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା = M  ଦ୍ୱାରା ନିର୍ଦ୍ଦେଶିତ ଲବ୍ଧାଙ୍କ = 10.2 ପ୍ରାୟ   (ଉତ୍ତର)</p>
+</section>
+<section class="example"><h4>ଉଦାହରଣ - 17 :<br>ସାରଣୀରେ  120  ଜଣ  ଛାତ୍ରଙ୍କର  ଲବ୍ଧାଙ୍କ  ପ୍ରଦର୍ଶିତ  ହୋଇଛି ।  ସାରଣୀ- I  ଅନ୍ତର୍ଭୁକ୍ତ  ତଥ୍ୟାବଳୀର ରାଶିକୃତ  ବାରମ୍ବାରତା  ଲେଖଚିତ୍ର  ଅଙ୍କନ  କର  ଓ  ଏହା  ସାହାଯ୍ୟରେ<br>(i) ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ କର ।<br>(ii) 65% ରୁ ଅଧିକ ନମ୍ବର ରଖିଥିବା ଛାତ୍ର ସଂଖ୍ୟା ନିର୍ଣ୍ଣୟ କର ।</h4><div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ</td><td>0-10</td><td>10-20</td><td>20-30</td><td>30-40</td><td>40-50</td><td>50-60</td><td>60-70</td><td>70-80</td></tr><tr><td>ବାରମ୍ବାରତା</td><td>7</td><td>12</td><td>18</td><td>22</td><td>24</td><td>20</td><td>13</td><td>4</td></tr></table></div>
+<p class="solution">ସମାଧାନ :</p>
+<p>ସାରଣୀ - $I_1$</p>
+<div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ ‘x’</td><td>0-10</td><td>10-20</td><td>20-30</td><td>30-40</td><td>40-50</td><td>50-60</td><td>60-70</td><td>70-80</td></tr><tr><td>ବାରମ୍ବାରତା ‘f’</td><td>7</td><td>12</td><td>18</td><td>22</td><td>24</td><td>20</td><td>13</td><td>4</td></tr><tr><td>ରାଶିକୃତ ବାରମ୍ବାରତା‘c.f’</td><td>7</td><td>19</td><td>37</td><td>59</td><td>83</td><td>103</td><td>116</td><td>120</td></tr></table></div>
+<figure><img src="images/fig-5-02.png" width="445" alt="Ogive for table I1: x-axis ଲବ୍ଧାଙ୍କ 10 to 80, y-axis ରାଶିକୃତ ବାରମ୍ବାରତା 0 to 120; points (10, 7), (20, 19), (30, 37), (40, 59), (50, 83), (60, 103), (70, 116), (80, 120) joined, dashed from O. A horizontal line at c.f. 60.5 meets the curve at P, whose foot on the x-axis is M (about 42). A vertical line from A (x = 65) meets the curve at B, and the horizontal line from B meets the y-axis at C (about 110)." loading="lazy"></figure>
+<div class="math" data-tex="\text{ମଧ୍ୟମ ସ୍ଥାନ} = \frac{1}{2}\left[\frac{120}{2} + \left(\frac{120}{2} + 1\right)\right] = \frac{1}{2}(60 + 61) = 60.5">\text{ମଧ୍ୟମ ସ୍ଥାନ} = \frac{1}{2}\left[\frac{120}{2} + \left(\frac{120}{2} + 1\right)\right] = \frac{1}{2}(60 + 61) = 60.5</div>
+<p>ମଧ୍ୟମା ନିର୍ଣ୍ଣୟ ପ୍ରଣାଳୀ :</p>
+<p>ରାଶିକୃତ ବାରମ୍ବାରତା (c.f) ନିର୍ଦ୍ଦେଶକ ଅକ୍ଷର 60.5 ଏକକ ଚିହ୍ନ ପାଖରେ ଅକ୍ଷପ୍ରତି ଲମ୍ବଟିଏ ଅଙ୍କନ କର । ଏହା ରାଶିକୃତ ବାରମ୍ବାରତା ସୂଚକ ଲେଖ (ogive)କୁ ଯେଉଁ ବିନ୍ଦୁରେ ଛେଦ କରିବ ତାର ନାମ P ଦିଅ । P ବିନ୍ଦୁରୁ ଲବ୍ଧାଙ୍କ ନିର୍ଦ୍ଦେଶକ ଅକ୍ଷ ପ୍ରତି ଏକ ଲମ୍ବ ଅଙ୍କନ କର । ଏହାର ପାଦ ବିନ୍ଦୁ M ହେଉ ।</p>
+<p>(i)  ଏଣୁ ଦତ୍ତ ତଥ୍ୟାବଳୀର ମଧ୍ୟମା = M ଦ୍ୱାରା ନିର୍ଦ୍ଦେଶିତ ଲବ୍ଧାଙ୍କ = 42 (ପ୍ରାୟ)</p>
+<p>(ii) 100 ର 65 % = 65<br>x - ଅକ୍ଷରେ ଏକ ବିନ୍ଦୁ (A) ନିର୍ଣ୍ଣୟ କର ଯାହାର ଲବ୍ଧାଙ୍କ 65 । A ବିନ୍ଦୁରୁ ଏକ ଉଲ୍ଲମ୍ବ ସରଳରେଖା ଅଙ୍କନ କର ଯାହା ଲେଖଚିତ୍ରକୁ B ବିନ୍ଦୁରେ ଛେଦ କରିବ । B ବିନ୍ଦୁରୁ ଏକ ଆନୁଭୂମିକ ସରଳରେଖା ଅଙ୍କନ କର ଯାହା y - ଅକ୍ଷକୁ C ବିନ୍ଦୁରେ ଛେଦ କରିବ । C ବିନ୍ଦୁର ନିର୍ଦ୍ଦେଶକ ସଂଖ୍ୟା ହେଉଛି 110  ।<br>∴ 65% ରୁ ଅଧିକ ନମ୍ବର ପାଇଥିବା ଛାତ୍ରଛାତ୍ରୀ ସଂଖ୍ୟା = 120 – 110 = 10   (ଉତ୍ତର)</p>
+</section>
+<a class="exercise-card" href="exercises/exercise-5b/exercise.html">
+  <span class="exercise-title">ଅନୁଶୀଳନୀ - 5 (b)</span>
+<span class="exercise-meta">12 questions · pages 102–104</span></a>
+<h3 class="h-sec" id="s-5-2-3-p104" data-short="5.2.3 ଗରିଷ୍ଠକ"><span class="h-num">5.2.3</span><span class="h-main">ଗରିଷ୍ଠକ</span><span class="h-gloss">Mode</span></h3>
+<p>(i) ବ୍ୟାଟସ୍‌ମ୍ୟାନ୍ ତେନ୍ଦୁଲକର ଏକ କ୍ରିକେଟ ମ୍ୟାଚ୍‌ରେ 6 ଟି ବଲ୍‌ର ସମ୍ମୁଖୀନ ହୋଇ ସଂଗ୍ରହ କରିଥିବା ରନ୍ ହେଲା 4, 2, 6, 4, 4, 0; ‘4’  ଲବ୍ଧାଙ୍କଟି ସର୍ବାଧିକ ତିନିଥର ଅଛି । ତେଣୁ ଏହ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ Mo = 4</p>
+<p>(ii) ନିମ୍ନ ବାରମ୍ବାରତା ବଣ୍ଟନ ସାରଣୀକୁ ଲକ୍ଷ୍ୟ କର ।</p>
+<div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ (x)</td><td>2</td><td>3</td><td>4</td><td>6</td></tr><tr><td>ବାରମ୍ବାରତା (f)</td><td>25</td><td>15</td><td>12</td><td>10</td></tr></table></div>
+<p>ଏହି ବଣ୍ଟନରେ 2 ଲବ୍ଧାଙ୍କଟି ସର୍ବାଧିକ 25 ଥର ରହିଥିବାରୁ ଉକ୍ତ ବଣ୍ଟନର ଗରିଷ୍ଠକ Mo = 2</p>
+<p>(iii) ଗୋଟିଏ ଲୁଡୁ ଗୋଟି ଦଶଥର ଗଡ଼ାଇବାରୁ 3, 6, 3, 2, 5, 5, 1, 3, 2, 2  ଲବ୍ଧାଙ୍କମାନ ମିଳିଲା । ଏଠାରେ 2 ଓ 3  ଲବ୍ଧାଙ୍କ ଦ୍ୱୟ ପ୍ରତ୍ୟେକ ସର୍ବାଧିକ 3 ଥର ଲେଖାଏଁ ରହିଥିବାରୁ ଦତ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ Mo  ହେଉଛି 2 ଓ 3  ।</p>
+<p>ସଂଜ୍ଞା : କୌଣସି ତଥ୍ୟାବଳୀରେ ସର୍ବାଧିକ ବାର ରହିଥିବା ଲବ୍ଧାଙ୍କ (ଲବ୍ଧାଙ୍କ ମାନ) ହିଁ ଉକ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ) ଭାଗବିହୀନ ବାରମ୍ବାରତା ବଣ୍ଟନରେ ସର୍ବାଧିକ ବାରମ୍ବାରତା ବିଶିଷ୍ଟ ଲବ୍ଧାଙ୍କ ବା ଲବ୍ଧାଙ୍କ ମାନ) ହିଁ ଉକ୍ତ ବଣ୍ଟନର ଗରିଷ୍ଠକ ।</p>
+<aside class="note">ଦ୍ରଷ୍ଟବ୍ୟ : ଯଦି କୌଣସି ତଥ୍ୟାବଳୀର ଅନ୍ତର୍ଭୁକ୍ତ ଲବ୍ଧାଙ୍କମାନଙ୍କର ବାରମ୍ବାରତା ସମାନ । ତେବେ ଉକ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ ନାହିଁ ବୋଲି କହିବା । ନିମ୍ନ ତଥ୍ୟାବଳୀକୁ ଲକ୍ଷ୍ୟ କର ।<br>3, 5, 7, 3, 8, 5, 8, 7 ଏଠାରେ କୌଣସି ଗରିଷ୍ଠକ ନାହିଁ ।</aside>
+<section class="example"><h4>ଉଦାହରଣ 18 : ଦତ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ ନିର୍ଣ୍ଣୟ କର ।</h4><div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr><tr><td>ବାରମ୍ବାରତା :</td><td>3</td><td>8</td><td>12</td><td>15</td><td>14</td><td>17</td><td>12</td><td>8</td><td>6</td></tr></table></div>
+<p class="solution">ସମାଧାନ : ଲବ୍ଧାଙ୍କ 13 ର ବାରମ୍ବାରତା ସର୍ବାଧିକ</p>
+<p>.: ଗରିଷ୍ଠକ  $M_0 = 13$</p>
+</section>
+<section class="example"><h4>ଉଦାହରଣ  - 19 : ଗୋଟିଏ ବଗିଚାରେ ଏକା ଦିନରେ ଲଗା ଯାଇଥିବା 10 ଟି ଚାରା ଗଛର ଉଚ୍ଚତା (ସେ.ମି.ରେ) ହେଲା : 22, 24, 19, 21, 33, 21, 24, 22, 20, 22  । ଉକ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ ନିର୍ଣ୍ଣୟ କର ।</h4><p class="solution">ସମାଧାନ : ଲବ୍ଧାଙ୍କ ଗୁଡ଼ିକୁ ସାନରୁ ବଡ଼ କ୍ରମରେ ସଜାଇ ରଖିଲେ - 19, 20, 21, 21, 22, 22, 22, 23, 24, 24  । ଏଠାରେ ଗରିଷ୍ଠକ Mo = 22  (.: 22 ବାରମ୍ବାରତା ସର୍ବାଧିକ)</p>
+</section>
+<section class="example"><h4>ଉଦାହରଣ - 20 :  ଦତ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ ନିର୍ଣ୍ଣୟ କର ।</h4><div class="table-wrap"><table><tr><td>ଲବ୍ଧାଙ୍କ (x) :</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr><tr><td>ବାରମ୍ବାରତା (f) :</td><td>7</td><td>18</td><td>25</td><td>24</td><td>20</td><td>25</td><td>19</td><td>13</td></tr></table></div>
+<p class="solution">ସମାଧାନ : ସାରଣୀରୁ ସ୍ପଷ୍ଟ ଯେ, ଲବ୍ଧାଙ୍କ 7 ଓ 10 ର ବାରମ୍ବାରତା ସର୍ବାଧିକ । ଦତ୍ତ ତଥ୍ୟାବଳୀର ଗରିଷ୍ଠକ 7 ଏବଂ10 ।</p>
+<aside class="note">ଦ୍ରଷ୍ଟବ୍ୟ : ଗୋଟିଏ ତଥ୍ୟାବଳୀର ମାଧ୍ୟମାନ (M) ମଧ୍ୟମା $(M_d)$ ଏବଂ ଗରିଷ୍ଠକ $(M_o)$ ମଧ୍ୟରେ ଏକ ସାଧାରଣ ସମ୍ବନ୍ଧ ରହିଛି । ଏହା ଏକ ଆନୁଭବିକ ସମ୍ବନ୍ଧ (Empirical Relation) ଅଟେ ।<br>ସମ୍ବନ୍ଧଟି ହେଲା : $M_0 = 3M_d - 2M$</aside>
+</section>
+<a class="exercise-card" href="exercises/exercise-5c/exercise.html">
+  <span class="exercise-title">ଅନୁଶୀଳନୀ 5 (c)</span>
+<span class="exercise-meta">5 questions · pages 106–106</span></a>
+
+<section class="quickref" aria-labelledby="quick-ref">
+  <h2 class="h-sec quickref-head" id="quick-ref" data-short="ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା"><span class="h-num" aria-hidden="true">⚡</span><span class="h-main">ଦ୍ରୁତ ସନ୍ଦର୍ଭ ନିର୍ଦ୍ଦେଶିକା</span><span class="h-gloss">Quick reference guide</span></h2>
+  <p class="quickref-intro">ଏହି ଅଧ୍ୟାୟର ମୁଖ୍ୟ ଧାରଣା ଓ ସୂତ୍ର ସଂକ୍ଷେପରେ । ବିସ୍ତୃତ ଆଲୋଚନା ପାଇଁ ପ୍ରତ୍ୟେକ କାର୍ଡରୁ ଅନୁଚ୍ଛେଦକୁ ଯାଅ ।</p>
+  <div class="qr-grid">
+    <article class="qr-card">
+      <header class="qr-card-head">
+<span class="chip qr-chip">5.2</span>        <h3 class="qr-title">କେନ୍ଦ୍ରୀୟ ପ୍ରବଣତା <span class="qr-en">Measures of central tendency</span></h3>
+      </header>
+<ul class="qr-points"><li>ଏକାଧିକ ତଥ୍ୟର ପ୍ରତିନିଧିତ୍ୱ କରୁଥିବା ଗୋଟିଏ ସଂଖ୍ୟା; ତିନୋଟି ମାପ : ମାଧ୍ୟମାନ, ମଧ୍ୟମା, ଗରିଷ୍ଠକ ।</li><li>ମାଧ୍ୟମାନ : ସମସ୍ତ ଲବ୍ଧାଙ୍କର ହାରାହାରି ।</li><li>ମଧ୍ୟମା : କ୍ରମରେ ସଜାଯାଇଥିବା ଲବ୍ଧାଙ୍କର ମଝି ଲବ୍ଧାଙ୍କ ।</li><li>ଗରିଷ୍ଠକ : ସର୍ବାଧିକ ବାରମ୍ବାରତା ବିଶିଷ୍ଟ ଲବ୍ଧାଙ୍କ ।</li></ul>      <footer class="qr-links">
+<a href="#s-5-2-p83">ଅନୁଚ୍ଛେଦ 5.2 ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5a/exercise.html">ଅନୁଶୀଳନୀ 5 (a)</a><a class="qr-ex" href="exercises/exercise-5b/exercise.html">ଅନୁଶୀଳନୀ 5 (b)</a><a class="qr-ex" href="exercises/exercise-5c/exercise.html">ଅନୁଶୀଳନୀ 5 (c)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+<span class="chip qr-chip">5.2.1</span>        <h3 class="qr-title">ମାଧ୍ୟମାନ (ସାଧାରଣ ପ୍ରଣାଳୀ) <span class="qr-en">Mean of raw data and of a frequency table</span></h3>
+      </header>
+<ul class="qr-points"><li>ବାରମ୍ବାରତା ସାରଣୀରେ ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କକୁ ତା’ର ବାରମ୍ବାରତା ଦ୍ୱାରା ଗୁଣି fx ସ୍ତମ୍ଭ କର ।</li></ul><div class="math qr-formula" data-tex="M = \frac{\Sigma x}{n}, \qquad M = \frac{\Sigma fx}{\Sigma f}">M = \frac{\Sigma x}{n}, \qquad M = \frac{\Sigma fx}{\Sigma f}</div><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> ଉଦାହରଣ : $\Sigma f = 12$, $\Sigma fx = 846 \Rightarrow M = 70.5$ ସେ.ମି. ।</p><p class="qr-caution"><span class="qr-tag">ସାବଧାନ</span> ହରରେ $\Sigma f$ (ମୋଟ ବାରମ୍ବାରତା), ଲବ୍ଧାଙ୍କ ସ୍ତମ୍ଭର ଧାଡ଼ି ସଂଖ୍ୟା ନୁହେଁ ।</p>      <footer class="qr-links">
+<a href="#s-5-2-1-p84">ଅନୁଚ୍ଛେଦ 5.2.1 ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5a/exercise.html">ଅନୁଶୀଳନୀ 5 (a)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+        <h3 class="qr-title">ସଂକ୍ଷିପ୍ତ (ବିଚ୍ୟୁତି) ପ୍ରଣାଳୀ <span class="qr-en">Short-cut (assumed mean) method</span></h3>
+      </header>
+<ul class="qr-points"><li>ମଝିରେ ଥିବା ଏକ ସୁବିଧାଜନକ ଲବ୍ଧାଙ୍କକୁ ଆରମ୍ଭ ବିନ୍ଦୁ A ନିଅ; ବିଚ୍ୟୁତି $y = x - A$ ।</li><li>ଯେକୌଣସି A ନେଲେ ମଧ୍ୟ ଉତ୍ତର ବଦଳେ ନାହିଁ; କେବଳ ହିସାବ ସହଜ ହୁଏ ।</li></ul><div class="math qr-formula" data-tex="M = A + \frac{\Sigma fy}{\Sigma f}">M = A + \frac{\Sigma fy}{\Sigma f}</div><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> ଉଦାହରଣ : $A = 70$, $\Sigma fy = 6$, $\Sigma f = 12 \Rightarrow M = 70.5$ ।</p><p class="qr-caution"><span class="qr-tag">ସାବଧାନ</span> ବିଚ୍ୟୁତିର ଚିହ୍ନ ରଖ; A ଠାରୁ ଛୋଟ ଲବ୍ଧାଙ୍କର ବିଚ୍ୟୁତି ଋଣାତ୍ମକ ।</p>      <footer class="qr-links">
+<a href="#s-snkssipt-prnnaallii-short-cut-method-baa-p86">ବିସ୍ତୃତ ଆଲୋଚନା ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5a/exercise.html">ଅନୁଶୀଳନୀ 5 (a)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+        <h3 class="qr-title">ଭାଗ ବିଭକ୍ତ ତଥ୍ୟର ମାଧ୍ୟମାନ ଓ ସୋପାନ-ବିଚ୍ୟୁତି <span class="qr-en">Mean of grouped data; step-deviation method</span></h3>
+      </header>
+<ul class="qr-points"><li>ପ୍ରତ୍ୟେକ ସଂଭାଗର ମଧ୍ୟବିନ୍ଦୁ $\frac{l_1 + l_2}{2}$ କୁ ସେହି ସଂଭାଗର ଲବ୍ଧାଙ୍କ ରୂପେ ନିଅ ।</li><li>ସୋପାନ-ବିଚ୍ୟୁତି : ବିଚ୍ୟୁତିକୁ ସାଧାରଣ ଗୁଣନୀୟକ i (ସାଧାରଣତଃ ସଂଭାଗ ବିସ୍ତାର) ଦ୍ୱାରା ଭାଗ କର, $y&#39; = \frac{x - A}{i}$ ।</li></ul><div class="math qr-formula" data-tex="M = \frac{\Sigma fx}{\Sigma f} = A + \frac{\Sigma fy&#39;}{\Sigma f} \times i">M = \frac{\Sigma fx}{\Sigma f} = A + \frac{\Sigma fy&#39;}{\Sigma f} \times i</div><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> ଉଦାହରଣ : $A = 35$, $i = 10$, $\Sigma fy&#39; = -1$, $\Sigma f = 100 \Rightarrow M = 34.9$ ।</p><p class="qr-caution"><span class="qr-tag">ସାବଧାନ</span> ଶେଷରେ i ଦ୍ୱାରା ଗୁଣିବାକୁ ଭୁଲ ନାହିଁ ।</p>      <footer class="qr-links">
+<a href="#s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p87">ବିସ୍ତୃତ ଆଲୋଚନା ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5a/exercise.html">ଅନୁଶୀଳନୀ 5 (a)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+        <h3 class="qr-title">ମାଧ୍ୟମାନ ସମ୍ବନ୍ଧୀୟ ଉପାଦେୟ ତଥ୍ୟ <span class="qr-en">Useful results on the mean</span></h3>
+      </header>
+<ul class="qr-points"><li>ପ୍ରତ୍ୟେକ ଲବ୍ଧାଙ୍କରେ a ଯୋଗ (ବିୟୋଗ) କଲେ ମାଧ୍ୟମାନ $M + a$ ($M - a$) ହୁଏ ।</li><li>ପ୍ରତ୍ୟେକକୁ $a \neq 0$ ଦ୍ୱାରା ଗୁଣନ (ଭାଗ) କଲେ ମାଧ୍ୟମାନ $aM$ ($\frac{M}{a}$) ହୁଏ ।</li></ul><div class="math qr-formula" data-tex="\sum_{i=1}^{n}(x_i - M) = 0">\sum_{i=1}^{n}(x_i - M) = 0</div><div class="math qr-formula" data-tex="\sum_{i=1}^{n}(x_i - a) = nM - na">\sum_{i=1}^{n}(x_i - a) = nM - na</div><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> ଦୁଇଟି $\Sigma(x_i - a)$ ମାନ ଦିଆଥିଲେ ଦୁଇଟି ସମୀକରଣରୁ n ଓ M ନିର୍ଣ୍ଣୟ କର ।</p>      <footer class="qr-links">
+<a href="#s-maadhyymaan-smbndhiiyy-ketek-upaadeyy-tthyy-so-p90">ବିସ୍ତୃତ ଆଲୋଚନା ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5a/exercise.html">ଅନୁଶୀଳନୀ 5 (a)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+<span class="chip qr-chip">5.2.2</span>        <h3 class="qr-title">ମଧ୍ୟମା (ଭାଗବିହୀନ ତଥ୍ୟ) <span class="qr-en">Median of raw data and of a frequency table</span></h3>
+      </header>
+<ul class="qr-points"><li>ପ୍ରଥମେ ଲବ୍ଧାଙ୍କଗୁଡ଼ିକୁ ଊର୍ଦ୍ଧ୍ୱ ବା ଅଧଃ କ୍ରମରେ ସଜାଅ ।</li><li>n ଅଯୁଗ୍ମ : $\frac{n + 1}{2}$ ତମ ଲବ୍ଧାଙ୍କ; n ଯୁଗ୍ମ : $\frac{n}{2}$ ତମ ଓ $\left(\frac{n}{2} + 1\right)$ ତମ ଲବ୍ଧାଙ୍କର ହାରାହାରି ।</li><li>ବାରମ୍ବାରତା ସାରଣୀରେ ରାଶିକୃତ ବାରମ୍ବାରତା (cf) ସ୍ତମ୍ଭ କର; ମଧ୍ୟମ ସ୍ଥାନଠାରୁ ଠିକ୍ ବୃହତ୍ତର cf ର ଲବ୍ଧାଙ୍କ ହିଁ ମଧ୍ୟମା ।</li></ul><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> ଉଦାହରଣ : 53, 63, 69, 72, 87, 95 ର ମଧ୍ୟମା $\frac{69 + 72}{2} = 70.5$ ।</p><p class="qr-caution"><span class="qr-tag">ସାବଧାନ</span> ସଜାଇବା ପୂର୍ବରୁ ମଝି ଲବ୍ଧାଙ୍କ ନେବା ଭୁଲ ।</p>      <footer class="qr-links">
+<a href="#s-5-2-2-p95">ଅନୁଚ୍ଛେଦ 5.2.2 ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5b/exercise.html">ଅନୁଶୀଳନୀ 5 (b)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+        <h3 class="qr-title">ଭାଗ ବିଭକ୍ତ ତଥ୍ୟର ମଧ୍ୟମା <span class="qr-en">Median of grouped data</span></h3>
+      </header>
+<ul class="qr-points"><li>ମଧ୍ୟମ ସ୍ଥାନ $m = \frac{n}{2}$; m ଠାରୁ ଠିକ୍ ବୃହତ୍ତର cf ଥିବା ସଂଭାଗ ହେଉଛି ମଧ୍ୟମା ସଂଭାଗ ।</li><li>l : ମଧ୍ୟମା ସଂଭାଗର ନିମ୍ନସୀମା, f : ତା’ର ବାରମ୍ବାରତା, c : ପୂର୍ବ ସଂଭାଗର cf, i : ସଂଭାଗ ବିସ୍ତାର ।</li></ul><div class="math qr-formula" data-tex="M_d = l + \frac{m - c}{f} \times i">M_d = l + \frac{m - c}{f} \times i</div><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> ଉଦାହରଣ : $m = 17.5$, ସଂଭାଗ 20-30, $l = 20$, $c = 12$, $f = 10$, $i = 10 \Rightarrow M_d = 25.5$ ।</p><p class="qr-caution"><span class="qr-tag">ସାବଧାନ</span> ଅନ୍ତର୍ଭୁକ୍ତ ସଂଭାଗ (4-7, 8-11, …) କୁ ପ୍ରଥମେ ବହିର୍ଭୂତ କର : ନିମ୍ନସୀମାରୁ 0.5 ବିୟୋଗ ଓ ଊର୍ଦ୍ଧ୍ୱସୀମାରେ 0.5 ଯୋଗ (3.5-7.5, …) ।</p>      <footer class="qr-links">
+<a href="#s-c-bhaag-bibhkt-ebn-baarmbaartaa-bitrnn-saarnn-p98">ବିସ୍ତୃତ ଆଲୋଚନା ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5b/exercise.html">ଅନୁଶୀଳନୀ 5 (b)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+        <h3 class="qr-title">ଓଜାଇଭ ସାହାଯ୍ୟରେ ମଧ୍ୟମା <span class="qr-en">Median from an ogive</span></h3>
+      </header>
+<ul class="qr-points"><li>x-ଅକ୍ଷରେ ଲବ୍ଧାଙ୍କ (ବା ସଂଭାଗର ଊର୍ଦ୍ଧ୍ୱସୀମା), y-ଅକ୍ଷରେ cf ନେଇ ବିନ୍ଦୁ ସ୍ଥାପନ କରି ମୁକ୍ତ ହସ୍ତରେ ଯୋଗ କର ।</li><li>y-ଅକ୍ଷରେ ମଧ୍ୟମ ସ୍ଥାନରୁ ଆନୁଭୂମିକ ରେଖା ଟାଣି ଲେଖକୁ P ରେ ଛେଦ କର; P ରୁ x-ଅକ୍ଷ ପ୍ରତି ଲମ୍ବର ପାଦବିନ୍ଦୁ M ହିଁ ମଧ୍ୟମା ।</li></ul><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> କୌଣସି ଲବ୍ଧାଙ୍କରୁ ଅଧିକ ପାଇଥିବା ସଂଖ୍ୟା = ମୋଟ − ସେହି ଲବ୍ଧାଙ୍କରେ ଲେଖରୁ ପଢ଼ିଥିବା cf ।</p><p class="qr-caution"><span class="qr-tag">ସାବଧାନ</span> ଲେଖରୁ ମିଳୁଥିବା ଉତ୍ତର ପ୍ରାୟ ମାନ; ସୂତ୍ରରେ ମିଳୁଥିବା ଉତ୍ତର ସହ ତୁଳନା କର ।</p>      <footer class="qr-links">
+<a href="#s-d-raashikrt-baarmbaartaa-suuck-lekh-ojaaibh-p100">ବିସ୍ତୃତ ଆଲୋଚନା ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5b/exercise.html">ଅନୁଶୀଳନୀ 5 (b)</a>      </footer>
+    </article>
+    <article class="qr-card">
+      <header class="qr-card-head">
+<span class="chip qr-chip">5.2.3</span>        <h3 class="qr-title">ଗରିଷ୍ଠକ <span class="qr-en">Mode</span></h3>
+      </header>
+<ul class="qr-points"><li>ସର୍ବାଧିକ ବାରମ୍ବାରତା ବିଶିଷ୍ଟ ଲବ୍ଧାଙ୍କ; ଏକାଧିକ ଲବ୍ଧାଙ୍କର ସମାନ ସର୍ବାଧିକ ବାରମ୍ବାରତା ଥିଲେ ସମସ୍ତେ ଗରିଷ୍ଠକ ।</li><li>ସମସ୍ତ ଲବ୍ଧାଙ୍କର ବାରମ୍ବାରତା ସମାନ ହେଲେ ଗରିଷ୍ଠକ ନାହିଁ ।</li></ul><div class="math qr-formula" data-tex="M_o = 3M_d - 2M \quad (\text{ଆନୁଭବିକ ସମ୍ବନ୍ଧ})">M_o = 3M_d - 2M \quad (\text{ଆନୁଭବିକ ସମ୍ବନ୍ଧ})</div><p class="qr-use"><span class="qr-tag">ପ୍ରୟୋଗ</span> ଉଦାହରଣ : 4, 2, 6, 4, 4, 0 ର ଗରିଷ୍ଠକ 4 ।</p><p class="qr-caution"><span class="qr-tag">ସାବଧାନ</span> ଗରିଷ୍ଠକ ହେଉଛି ଲବ୍ଧାଙ୍କ, ତା’ର ବାରମ୍ବାରତା ନୁହେଁ ।</p>      <footer class="qr-links">
+<a href="#s-5-2-3-p104">ଅନୁଚ୍ଛେଦ 5.2.3 ପଢ଼ →</a><a class="qr-ex" href="exercises/exercise-5c/exercise.html">ଅନୁଶୀଳନୀ 5 (c)</a>      </footer>
+    </article>
+  </div>
+</section>
+</main>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+<script>
+// Chapter menu: close on outside click, Escape or picking an item; mark the current section.
+(function () {
+  var menu = document.querySelector(".crumb-menu");
+  if (!menu) return;
+  document.addEventListener("click", function (e) {
+    if (menu.open && !menu.contains(e.target)) menu.open = false;
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && menu.open) { menu.open = false; menu.querySelector("summary").focus(); }
+  });
+  menu.querySelectorAll(".menu a").forEach(function (a) {
+    a.addEventListener("click", function () { menu.open = false; });
+  });
+  menu.addEventListener("toggle", function () {
+    if (!menu.open) return;
+    var sec = document.querySelector(".crumb-section:not([hidden]) a");
+    var id = sec ? sec.getAttribute("href").slice(1) : null;
+    var current = null;
+    menu.querySelectorAll("li[data-anchor]").forEach(function (li) {
+      var on = li.dataset.anchor === id;
+      li.classList.toggle("current", on);
+      if (on) current = li;
+    });
+    if (current) current.scrollIntoView({ block: "nearest" });
+  });
+})();
+// Last breadcrumb follows the section heading currently at the top of the page.
+(function () {
+  var crumb = document.querySelector(".crumb-section");
+  if (!crumb) return;
+  var heads = Array.prototype.slice.call(document.querySelectorAll("main h2.h-sec, main h3.h-sec"));
+  var bar = document.querySelector(".topbar");
+  var ticking = false;
+  function update() {
+    ticking = false;
+    var limit = bar.offsetHeight + 24, current = null;
+    for (var i = 0; i < heads.length; i++) {
+      if (heads[i].getBoundingClientRect().top <= limit) current = heads[i]; else break;
+    }
+    if (current) {
+      crumb.querySelector("a").textContent = current.dataset.short || current.textContent;
+      crumb.querySelector("a").href = "#" + current.id;
+      crumb.hidden = false;
+    } else {
+      crumb.hidden = true;
+    }
+  }
+  window.addEventListener("scroll", function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+  }, { passive: true });
+  update();
+})();
+window.addEventListener("load", function () {
+  if (!window.katex) return;
+  document.querySelectorAll(".math[data-tex]").forEach(function (el) {
+    katex.render(el.dataset.tex, el, { displayMode: true, throwOnError: false });
+  });
+  renderMathInElement(document.body, {
+    delimiters: [{ left: "$", right: "$", display: false }],
+    ignoredClasses: ["math"],
+    throwOnError: false
+  });
+});
+</script>
+</body>
+</html>
