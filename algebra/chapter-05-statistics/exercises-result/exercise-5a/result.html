@@ -13,7 +13,7 @@
 <header class="topbar">
   <nav class="crumbs" aria-label="Breadcrumb">
     <ol>
-<li class="crumb-class"><span>Class 10</span></li>      <li class="crumb-subject"><a href="../../../index.html">Algebra</a></li>
+<li class="crumb-class"><span>Class 10</span></li>      <li class="crumb-subject"><a href="../../../index.html"><svg class="home-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5M5.5 9.5V20h5v-6h3v6h5V9.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="crumb-label">Algebra</span></a></li>
       <li class="crumb-chapter">
   <details class="crumb-menu">
     <summary aria-label="ପରିସଂଖ୍ୟାନ: sections"><span class="crumb-text">5. ପରିସଂଖ୍ୟାନ</span><span class="caret" aria-hidden="true">▾</span></summary>
@@ -1153,6 +1153,18 @@ window.addEventListener("load", function () {
     ignoredClasses: ["math"],
     throwOnError: false
   });
+  // Inline math cannot wrap mid-formula: let only the ones wider than their line scroll on their own.
+  var fit = function () {
+    document.querySelectorAll(".katex:not(.katex-display > .katex)").forEach(function (k) {
+      k.classList.remove("wide-inline");
+      var box = k.parentElement;
+      while (box.parentElement && getComputedStyle(box).display.indexOf("inline") === 0) box = box.parentElement;
+      if (k.getBoundingClientRect().width > box.clientWidth) k.classList.add("wide-inline");
+    });
+  };
+  fit();
+  var t;
+  window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(fit, 150); });
 });
 </script>
 </body>

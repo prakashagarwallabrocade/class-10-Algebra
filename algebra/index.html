@@ -107,6 +107,18 @@ window.addEventListener("load", function () {
     ignoredClasses: ["math"],
     throwOnError: false
   });
+  // Inline math cannot wrap mid-formula: let only the ones wider than their line scroll on their own.
+  var fit = function () {
+    document.querySelectorAll(".katex:not(.katex-display > .katex)").forEach(function (k) {
+      k.classList.remove("wide-inline");
+      var box = k.parentElement;
+      while (box.parentElement && getComputedStyle(box).display.indexOf("inline") === 0) box = box.parentElement;
+      if (k.getBoundingClientRect().width > box.clientWidth) k.classList.add("wide-inline");
+    });
+  };
+  fit();
+  var t;
+  window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(fit, 150); });
 });
 </script>
 </body>
